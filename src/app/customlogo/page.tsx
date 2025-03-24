@@ -71,7 +71,7 @@ const Customlogo = () => {
 
     <section id="logo" className="w-full pt-28 py-12 md:py-24 lg:py-32 dark:bg-zinc-900 bg-white">
       <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
-        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">CUSTOM LOGO</h3>
+        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">CUSTOM LOGO DESIGN</h3>
         </div>
       <div className="w-full py-16 bg-white dark:bg-black container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row items-center">
         {/* Left Side - Text */}

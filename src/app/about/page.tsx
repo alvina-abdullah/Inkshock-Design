@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Aboutsection = () => {
   return (
-    <div className="bg-gray-100 dark:bg-black mt-9">
+    <div className="bg-gray-100 dark:bg-black pt-28 py-12 md:py-24 lg:py-32">
       {/* Header Section */}
-      <div className=" bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 dark:bg-black py-16 text-center ">
-        <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">ABOUT US</h1>
-      </div>
+      <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
+        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">ABOUT US</h3>
+        </div>
 
       {/* About Section */}
       <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col lg:flex-row items-center gap-12">
