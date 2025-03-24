@@ -36,8 +36,7 @@ const TestimonialsSection = () => {
               What our clients say
             </h2>
             <p className="max-w-[900px] text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Don't just take our word for it. Here&aposs what our clients have to say about working with us.
-            </p>
+            Don&apos;t just take our word for it. Here&apos;s what our clients have to say about working with us.            </p>
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-3">
