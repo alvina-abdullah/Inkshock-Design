@@ -95,7 +95,7 @@ const Aboutsection = () => {
             </li>
           </ul>
           <p className="mt-6 text-black dark:text-white">
-          📩 Ready to take your brand to the next level? Let’s create something extraordinary together!
+          📩 Ready to take your brand to the next level? Let&apos;s create something extraordinary together!
           </p>
         </div>
       </div>
