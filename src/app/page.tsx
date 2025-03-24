@@ -16,8 +16,8 @@ import ServicesSection from "./services/page";
 import ProcessSection from "./process/page";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Inshock Design",
+  description: "",
   // other metadata
 };
 
