@@ -6,38 +6,38 @@ import Packages from "@/components/Packages";
 const Customlogo = () => {
   const projects = [
     {
-      // title: "Vibrant Branding",
-      // category: "Brand Identity",
+      title: "Vibrant Branding",
+      category: "Brand Identity",
       image: "/images/work/logo1.png?height=400&width=600",
     },
     {
-      // title: "Modern E-commerce",
-      // category: "Web Design",
+      title: "Modern E-commerce",
+      category: "Web Design",
       image: "/images/work/logo2.png?height=400&width=600",
     },
     {
-      // title: "App Interface",
-      // category: "UI/UX Design",
+      title: "App Interface",
+      category: "UI/UX Design",
       image: "/images/work/logo3.png?height=400&width=600",
     },
     {
-      // title: "Product Packaging",
-      // category: "Print Design",
+      title: "Product Packaging",
+      category: "Print Design",
       image: "/images/work/logo4.png?height=400&width=600",
     },
     {
-      // title: "Custom Illustrations",
-      // category: "Illustration",
+      title: "Custom Illustrations",
+      category: "Illustration",
       image: "/images/work/logo5.png?height=400&width=600",
     },
     {
-      // title: "Marketing Campaign",
-      // category: "Branding & Digital",
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
       image: "/images/work/logo6.png?height=400&width=600",
     },
     {
-      // title: "Marketing Campaign",
-      // category: "Branding & Digital",
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
       image: "/images/work/logo7.png?height=400&width=600",
     },
     {
