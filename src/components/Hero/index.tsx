@@ -17,7 +17,7 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-black dark:text-white sm:text-lg md:text-xl">
                
-                We bring your ideas to life with bold, vibrant designs that capture attention and drive results. From branding to web design, we've got you covered.
+                We bring your ideas to life with bold, vibrant designs that capture attention and drive results. From branding to web design, we&apos;ve got you covered.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 hover:bg-pink-600 cursor-pointer">
                   <Link
