@@ -70,11 +70,12 @@ const PricingSection = () => {
   return (
     
     <section className="bg-gray-100 dark:bg-black py-24 ">
-    
-       
+          <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
+        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">Packages</h3>
+        </div>
       <div className="max-w-6xl mx-auto px-6">
-      <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-center mb-16 font-extrabold text-5xl">Our Pricing Packages</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <h3 className="pt-11 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-center mb-16 font-extrabold text-5xl">Our Pricing Packages</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
           {packages.map((pkg, index) => (
             <div
               key={index}

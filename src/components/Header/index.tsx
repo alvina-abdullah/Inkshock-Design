@@ -147,7 +147,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
-                                  className="block rounded py-2.5 text-sm text-dark hover:text-pink-600 dark:text-white/70 dark:hover:text-white lg:px-3"
+                                  className="block rounded py-2.5 text-sm  hover:text-pink-600 dark:text-white/70 dark:hover:text-pink-600  lg:px-3"
                                 >
                                   {submenuItem.title}
                                 </Link>

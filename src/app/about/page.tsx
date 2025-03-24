@@ -2,93 +2,128 @@ import Image from "next/image";
 
 const Aboutsection = () => {
   return (
-    <div className="bg-white dark:bg-black pt-28 py-12 md:py-24 lg:py-32">
+    <div className="bg-white py-12 pt-28 dark:bg-black md:py-24 lg:py-32">
       {/* Header Section */}
-      <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
-        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">ABOUT US</h3>
-        </div>
+      <div className="h-40 w-full bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 ">
+        <h3 className="pt-16 text-center text-4xl font-extrabold text-white">
+          ABOUT US
+        </h3>
+      </div>
 
       {/* About Section */}
-      <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col lg:flex-row items-center gap-12">
-        <div className="lg:w-1/2 bg-white dark:bg-black">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 px-6 py-16 lg:flex-row">
+        <div className="bg-white dark:bg-black lg:w-1/2">
           <h3 className=" font-bold text-black dark:text-white">ABOUT</h3>
-          <h2 className="text-3xl font-bold text-black dark:text-white">Inkshock Design</h2>
-          <p className="text-black dark:text-white mt-4">
-            Inkshock Design is a leading graphic design and web development agency based in the USA. 
-            With over 10 years of experience in the online design industry, we have been recognized 
-            for our exceptional work and commitment to client satisfaction.
+          <h2 className="text-3xl font-bold text-black dark:text-white">
+            Inkshock Design
+          </h2>
+          <p className="mt-4 text-black dark:text-white">
+            At InkShock Design, we bring creativity to life! As a premier
+            graphic design and web development agency based in the USA, we
+            specialize in crafting visually stunning and high-performing digital
+            experiences.
+          </p>
+          <p>
+            With over 10 years of expertise, we have helped businesses of all
+            sizes elevate their brand identity through innovative design,
+            cutting-edge websites, and impactful digital solutions. Our
+            dedication to quality, creativity, and customer satisfaction has
+            earned us recognition as a trusted industry leader.
           </p>
         </div>
         <div className="lg:w-1/2">
-          <Image src="/images/about/image.png" width={600} height={400} alt="About Us" className="rounded-lg" />
+          <Image
+            src="/images/about/image.png"
+            width={600}
+            height={400}
+            alt="About Us"
+            className="rounded-lg"
+          />
         </div>
       </div>
 
       {/* What Makes Us Unique Section */}
-      <div className="relative bg-cover bg-center py-16 px-6 text-white" style={{ backgroundImage: "url('/unique-bg.png')" }}>
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black dark:text-white px-4 py-2 inline-block rounded-full text-sm font-semibold">
+      <div
+        className="relative bg-cover bg-center px-6 py-16 text-white"
+        style={{ backgroundImage: "url('/unique-g.png')" }}
+      >
+        <div className="mx-auto max-w-4xl text-center text-black dark:text-white">
+          <div className="inline-block rounded-full bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-4 py-2 text-sm font-semibold text-black dark:text-white">
             Inkshock Design
           </div>
-          <h2 className="text-4xl font-bold mt-4 text-black dark:text-white">What Makes Inkshock Design Unique</h2>
+          <h2 className="mt-4 text-4xl font-bold text-black dark:text-white">
+            Welcome to InkShock Design – Where Creativity Meets Innovation
+          </h2>
           <p className="mt-4 text-lg text-black dark:text-white">
-            Gone are the days when obtaining a logo required extensive collaboration with an 
-            advertising agency or freelance designer, often resulting in exorbitant costs and 
-            lengthy timelines. At Next Designs Lab, we believe in empowering business owners 
-            to create their own logos with complete control, flexibility, and convenience.
+            At InkShock Design, we craft stunning visuals, high-performance
+            websites, and powerful branding solutions to help businesses make a
+            lasting impact. Whether you're a startup looking for a bold identity
+            or an established brand in need of a revamp, we bring your vision to
+            life with cutting-edge design and seamless digital experiences.
           </p>
-          <ul className="mt-6 text-left text-lg space-y-2 text-black dark:text-white">
-            <li>✔ Extensive collection of logo icons tailored to every major industry</li>
-            <li>✔ Vast selection of fonts and colors to match your brand&apos;s personality</li>
-            <li>✔ Unlimited logo creation possibilities</li>
-            <li>✔ Downloadable image files in various formats (PNG, JPG, GIF, EPS)</li>
-            <li>✔ On-site access to promotional products showcasing your logo</li>
-            <li>✔ Option to choose a domain name and build a website seamlessly</li>
+          <br />
+          <h3 className="text-center text-2xl font-semibold">Why Choose InkShock Design?</h3>
+          <ul className="mt-6 space-y-2 text-left text-lg text-center text-black dark:text-white">
+            <li>
+            🚀 10+ Years of Experience – Trusted by businesses across industries.
+            </li>
+            <li>
+            🎨 Custom Branding & Web Solutions – Unique, eye-catching designs tailored to your needs.
+            </li>
+            <li>
+            ⚡ Fast Turnaround & Affordable Pricing – High-quality results without breaking the bank.
+            </li>
+            <li>
+            💯 100% Satisfaction Guarantee – Your success is our priority.
+            </li>
+            </ul>
+            <ul>
+              <br />
+            <h3 className="text-center text-2xl font-semibold">Our Services</h3>
+            <br />
+            <li>
+            ✔ Logo Design & Branding – Crafting memorable brand identities.
+            </li>
+            <li>
+            ✔ Web Design & Development – Engaging, responsive, and high-performing websites.
+            </li>
+            <li>
+            ✔ Marketing & Promotional Design – Flyers, brochures, packaging, and more.
+            </li>
+            <li>
+            ✔ Video Animation & Motion Graphics – High-quality visuals to captivate your audience.
+            </li>
           </ul>
           <p className="mt-6 text-black dark:text-white">
-            We also recognize that some business owners prefer to leave the design process to professionals. 
-            Hence, we offer in-house design expertise at a fraction of the cost charged by traditional agencies.
+          📩 Ready to take your brand to the next level? Let’s create something extraordinary together!
           </p>
         </div>
       </div>
 
       {/* Mission-Driven Section */}
-      <div className="bg-gray-50 dark:bg-black py-16 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <div className="bg-gray-50 px-6 py-16 dark:bg-black">
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 lg:flex-row">
           <div className="lg:w-1/2">
-            <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-white px-4 py-2 inline-block rounded-full text-sm font-semibold">
+            <div className="inline-block rounded-full bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-4 py-2 text-sm font-semibold text-white">
               MISSION-DRIVEN
             </div>
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mt-4">A Quest To Help Others</h2>
+            <h2 className="mt-4 text-3xl font-bold text-gray-900 dark:text-white">
+              A Quest To Help Others
+            </h2>
           </div>
           <div className="lg:w-1/2">
             <p className="text-gray-700 dark:text-white">
-              At Inkshock Design, we are committed to assisting small and medium-sized business 
-              owners in creating logos they truly adore and take pride in. We understand that naming 
-              a brand, crafting a company slogan, and conveying the right message to consumers can 
-              be both exciting and overwhelming. Recognizing the time-consuming nature of starting 
-              or rebranding a business, our goal is to streamline the process, reduce costs, and 
-              deliver high-quality logos and marketing products that not only turn heads but also 
+              At Inkshock Design, we are committed to assisting small and
+              medium-sized business owners in creating logos they truly adore
+              and take pride in. We understand that naming a brand, crafting a
+              company slogan, and conveying the right message to consumers can
+              be both exciting and overwhelming. Recognizing the time-consuming
+              nature of starting or rebranding a business, our goal is to
+              streamline the process, reduce costs, and deliver high-quality
+              logos and marketing products that not only turn heads but also
               enhance brand awareness.
             </p>
           </div>
-        </div>
-      </div>
-
-      {/* Meet Our Founder Section */}
-      <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col lg:flex-row items-center gap-12">
-        <div className="lg:w-1/2">
-          <Image src="/founder-image.png" width={500} height={400} alt="Muhammad Tabish" className="rounded-lg" />
-        </div>
-        <div className="lg:w-1/2">
-          <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-green-500 font-bold">
-            MEET OUR FOUNDER
-          </h3>
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Muhammad Owais</h2>
-          <p className="text-gray-700 dark:text-white mt-4">
-            Muhammad Owais, the founder of Inkshock Design, is the creative genius behind our agency&apos;s success. 
-            With a genuine passion for design, he has turned our agency into a go-to destination for top-notch work.
-          </p>
         </div>
       </div>
     </div>
