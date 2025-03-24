@@ -4,8 +4,8 @@ const Aboutsection = () => {
   return (
     <div className="bg-gray-100 dark:bg-black mt-9">
       {/* Header Section */}
-      <div className=" bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 dark:bg-black py-16 text-center text-white">
-        <h1 className="text-4xl font-bold">ABOUT US</h1>
+      <div className=" bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 dark:bg-black py-16 text-center ">
+        <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">ABOUT US</h1>
       </div>
 
       {/* About Section */}
