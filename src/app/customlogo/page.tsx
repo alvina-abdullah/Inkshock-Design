@@ -133,10 +133,11 @@ const Customlogo = () => {
             View All Projects
           </button> */}
         </div>
-      </div>
-      <div>
+        <div>
         <Packages/>
       </div>
+      </div>
+
     </section>
   )
 }
