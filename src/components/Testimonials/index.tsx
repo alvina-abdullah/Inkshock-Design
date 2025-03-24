@@ -36,7 +36,7 @@ const TestimonialsSection = () => {
               What our clients say
             </h2>
             <p className="max-w-[900px] text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Don't just take our word for it. Here's what our clients have to say about working with us.
+              Don't just take our word for it. Here&aposs what our clients have to say about working with us.
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                 </svg>
               </div>
-              <blockquote className="flex-1 text-lg font-medium text-white mb-4">"{testimonial.quote}"</blockquote>
+              <blockquote className="flex-1 text-lg font-medium text-white mb-4">&quot{testimonial.quote}&quot</blockquote>
               <div className="flex items-center gap-4">
                 <Image
                   src={testimonial.image || "/placeholder.svg"}

@@ -49,7 +49,7 @@ const WorkSection = () => {
               Showcasing our creative portfolio
             </h2>
             <p className="max-w-[900px] text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Take a look at some of our recent projects and see how we've helped businesses like yours make an impact.
+              Take a look at some of our recent projects and see how we have helped businesses like yours make an impact.
             </p>
           </div>
         </div>

@@ -84,7 +84,7 @@ const Aboutsection = () => {
           <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400text-green-500 font-bold">MEET OUR FOUNDER</h3>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Muhammad Owais</h2>
           <p className="text-gray-700 mt-4">
-            Muhammad Owais, the founder of Inkshock Design, is the creative genius behind our agency's success. 
+            Muhammad Owais, the founder of Inkshock Design, is the creative genius behind our agency success. 
             With a genuine passion for design, he has turned our agency into a go-to destination for top-notch work.
           </p>
         </div>

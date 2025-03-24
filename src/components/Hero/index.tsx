@@ -21,13 +21,13 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 hover:bg-pink-600 cursor-pointer">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="/portfolio"
                     className="rounded-sm bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                      View Our Work
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href="/packages"
                     className="inline-block rounded-sm border border-pink-500 via-orange-400 to-teal-400  px-8 py-4 text-base font-semibold text-black dark:text-white duration-300 ease-in-out "
                   >
                     Get Started
