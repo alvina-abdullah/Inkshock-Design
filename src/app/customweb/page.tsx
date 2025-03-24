@@ -69,6 +69,9 @@ const Customlogo = () => {
 
   return (
     <section id="logo" className="w-full pt-28 py-12 md:py-24 lg:py-32 dark:bg-zinc-900 bg-white">
+      <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
+        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">CUSTOM WEB DEVELOPMENT</h3>
+        </div>
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">

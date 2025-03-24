@@ -2,67 +2,67 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { FaChevronCircleRight } from "react-icons/fa"
-
+import Packages from "@/components/Packages";
 const Customlogo = () => {
   const projects = [
     {
-      title: "Vibrant Branding",
-      category: "Brand Identity",
+      // title: "Vibrant Branding",
+      // category: "Brand Identity",
       image: "/images/work/logo1.png?height=400&width=600",
     },
     {
-      title: "Modern E-commerce",
-      category: "Web Design",
+      // title: "Modern E-commerce",
+      // category: "Web Design",
       image: "/images/work/logo2.png?height=400&width=600",
     },
     {
-      title: "App Interface",
-      category: "UI/UX Design",
+      // title: "App Interface",
+      // category: "UI/UX Design",
       image: "/images/work/logo3.png?height=400&width=600",
     },
     {
-      title: "Product Packaging",
-      category: "Print Design",
+      // title: "Product Packaging",
+      // category: "Print Design",
       image: "/images/work/logo4.png?height=400&width=600",
     },
     {
-      title: "Custom Illustrations",
-      category: "Illustration",
+      // title: "Custom Illustrations",
+      // category: "Illustration",
       image: "/images/work/logo5.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      // title: "Marketing Campaign",
+      // category: "Branding & Digital",
       image: "/images/work/logo6.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      // title: "Marketing Campaign",
+      // category: "Branding & Digital",
       image: "/images/work/logo7.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      // title: "Marketing Campaign",
+      // category: "Branding & Digital",
       image: "/images/work/logo8.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      // title: "Marketing Campaign",
+      // category: "Branding & Digital",
       image: "/images/work/logo8.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      // title: "Marketing Campaign",
+      // category: "Branding & Digital",
       image: "/images/work/logo10.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      // title: "Marketing Campaign",
+      // category: "Branding & Digital",
       image: "/images/work/logo11.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      // title: "Marketing Campaign",
+      // category: "Branding & Digital",
       image: "/images/work/logo12.png?height=400&width=600",
     },
   ]
@@ -88,13 +88,13 @@ const Customlogo = () => {
         </div>
 
         {/* Right Side - Image */}
-        <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
+        <div className="md:w-1/2 flex justify-center mt-6 md:mt-0 ">
           <Image
             src="/images/graphic.png" // Replace with your image path
             alt="Graphic Designer Illustration"
             width={400}
             height={200}
-            // className="w-auto h-auto"
+            className="w-auto h-auto"
           />
         </div>
       </div>
@@ -110,29 +110,32 @@ const Customlogo = () => {
         </div>
         <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
-            <div key={index} className="group relative overflow-hidden rounded-lg">
+            <div key={index} className="group relative overflow-hidden rounded-lg ">
               <Image
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
                 width={600}
                 height={400}
-                className="h-[300px] w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                className="h-[300px] w-full object-cover transition-transform duration-300 group-hover:scale-105 "
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <div className="text-sm font-medium text-pink-500">{project.category}</div>
                 <h3 className="text-xl font-bold text-white">{project.title}</h3>
-                <Link href="#" className="mt-2 inline-flex items-center text-white hover:text-pink-400">
+                {/* <Link href="#" className="mt-2 inline-flex items-center text-white hover:text-pink-400">
                   View Project <FaChevronCircleRight className="ml-1 h-4 w-4" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}
         </div>
         <div className="flex justify-center mt-8">
-          <button className=" rounded-sm  px-8 py-3 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black hover:opacity-90 transition-opacity">
+          {/* <button className=" rounded-sm  px-8 py-3 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black hover:opacity-90 transition-opacity">
             View All Projects
-          </button>
+          </button> */}
         </div>
+      </div>
+      <div>
+        <Packages/>
       </div>
     </section>
   )

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Aboutsection = () => {
   return (
-    <div className="bg-gray-100 dark:bg-black pt-28 py-12 md:py-24 lg:py-32">
+    <div className="bg-white dark:bg-black pt-28 py-12 md:py-24 lg:py-32">
       {/* Header Section */}
       <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
         <h3 className="text-center text-white pt-16 text-4xl font-extrabold">ABOUT US</h3>
@@ -10,7 +10,7 @@ const Aboutsection = () => {
 
       {/* About Section */}
       <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col lg:flex-row items-center gap-12">
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 bg-white dark:bg-black">
           <h3 className=" font-bold text-black dark:text-white">ABOUT</h3>
           <h2 className="text-3xl font-bold text-black dark:text-white">Inkshock Design</h2>
           <p className="text-black dark:text-white mt-4">
@@ -85,7 +85,7 @@ const Aboutsection = () => {
             MEET OUR FOUNDER
           </h3>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Muhammad Owais</h2>
-          <p className="text-gray-700 mt-4">
+          <p className="text-gray-700 dark:text-white mt-4">
             Muhammad Owais, the founder of Inkshock Design, is the creative genius behind our agency&apos;s success. 
             With a genuine passion for design, he has turned our agency into a go-to destination for top-notch work.
           </p>

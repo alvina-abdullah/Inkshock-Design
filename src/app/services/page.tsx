@@ -47,7 +47,7 @@ const ServicesSection = () => {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center justify-center space-y-4 text-center"
         >
-          <div className="space-y-2">
+          <div className="space-y-2 ">
             <div className="inline-block rounded-lg bg-zinc-800 px-3 py-1 text-sm text-pink-500 font-medium">
               Our Services
             </div>
@@ -59,7 +59,7 @@ const ServicesSection = () => {
             </p>
           </div>
         </motion.div>
-        <div className="mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-2 lg:grid-cols-3 ">
           {services.map((service, index) => (
             <motion.div
               key={index}
@@ -69,8 +69,8 @@ const ServicesSection = () => {
               whileHover={{ scale: 1.05 }}
               className="group relative overflow-hidden rounded-lg border border-zinc-800 bg-zinc-950 p-6 hover:border-pink-500/50 transition-colors"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 via-orange-400/10 to-teal-400/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              <div className="relative z-10">
+              <div className="absolute  inset-0 bg-gradient-to-br from-pink-500/10 via-orange-400/10 to-teal-400/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="relative z-10 ">
                 {service.icon}
                 <h3 className="mt-4 text-xl font-bold text-white">{service.title}</h3>
                 <p className="mt-2 text-zinc-400">{service.description}</p>

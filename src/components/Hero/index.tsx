@@ -37,17 +37,17 @@ const Hero = () => {
                 capture attention and drive results. From branding to web
                 design, we&apos;ve got you covered.
               </motion.p>
-
+<div>
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut", delay: 0.6 }}
                 className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
               >
-                <button className="cursor-pointer ">
+                <button className="cursor-pointer rounded-sm bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80">
                 <Link
                   href="/portfolio"
-                  className="cursor-pointer rounded-sm bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  className=""
                 >
                   View Our Work
                 </Link>
@@ -61,7 +61,9 @@ const Hero = () => {
                 </Link>
                 </button>
               </motion.div>
+              </div>
             </motion.div>
+            
           </div>
         </div>
       </div>
