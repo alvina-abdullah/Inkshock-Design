@@ -1,49 +1,52 @@
-import Link from "next/link"
-import { FaCamera, FaChevronRight, FaGlobe, FaPalette, FaPen, FaPhone, FaPrint,  } from "react-icons/fa";
-
+'use client';
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { FaCamera, FaChevronRight, FaGlobe, FaPalette, FaPen, FaPhone, FaPrint } from "react-icons/fa";
 import { IoIosPhonePortrait } from "react-icons/io";
-
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: <FaPalette className="h-10 w-10 text-pink-500" />,
+      icon: <FaPalette className="h-10 w-10 text-pink-500" />, 
       title: "Branding & Identity",
-      description:
-        "Create a memorable brand with custom logos, color palettes, and brand guidelines that capture your essence.",
+      description: "Create a memorable brand with custom logos, color palettes, and brand guidelines that capture your essence."
     },
     {
-      icon: <FaGlobe className="h-10 w-10 text-orange-400" />,
+      icon: <FaGlobe className="h-10 w-10 text-orange-400" />, 
       title: "Web Design",
-      description: "Stunning, responsive websites that look amazing on any device and drive conversions.",
+      description: "Stunning, responsive websites that look amazing on any device and drive conversions."
     },
     {
-      icon: <IoIosPhonePortrait  className="h-10 w-10 text-yellow" />,
+      icon: <IoIosPhonePortrait className="h-10 w-10 text-yellow" />, 
       title: "UI/UX Design",
-      description: "Intuitive user interfaces and seamless experiences that keep users engaged and coming back.",
+      description: "Intuitive user interfaces and seamless experiences that keep users engaged and coming back."
     },
     {
-      icon: <FaPen className="h-10 w-10 text-teal-400" />,
+      icon: <FaPen className="h-10 w-10 text-teal-400" />, 
       title: "Illustration",
-      description: "Custom illustrations and graphics that bring your ideas to life and make your content stand out.",
+      description: "Custom illustrations and graphics that bring your ideas to life and make your content stand out."
     },
     {
-      icon: <FaCamera className="h-10 w-10 text-green-400" />,
+      icon: <FaCamera className="h-10 w-10 text-green-400" />, 
       title: "Photography",
-      description: "Professional photography services to showcase your products, team, or services in the best light.",
+      description: "Professional photography services to showcase your products, team, or services in the best light."
     },
     {
-      icon: <FaPrint className="h-10 w-10 text-blue-400" />,
+      icon: <FaPrint className="h-10 w-10 text-blue-400" />, 
       title: "Print Design",
-      description:
-        "Eye-catching business cards, brochures, packaging, and other print materials that make an impression.",
-    },
-  ]
+      description: "Eye-catching business cards, brochures, packaging, and other print materials that make an impression."
+    }
+  ];
 
   return (
     <section id="services" className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-black">
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <motion.div 
+          initial={{ opacity: 0, y: 50 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.8 }}
+          className="flex flex-col items-center justify-center space-y-4 text-center"
+        >
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-zinc-800 px-3 py-1 text-sm text-pink-500 font-medium">
               Our Services
@@ -55,11 +58,15 @@ const ServicesSection = () => {
               From concept to completion, we offer a full range of design services to help your business stand out.
             </p>
           </div>
-        </div>
+        </motion.div>
         <div className="mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
-            <div
+            <motion.div
               key={index}
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.2 }}
+              whileHover={{ scale: 1.05 }}
               className="group relative overflow-hidden rounded-lg border border-zinc-800 bg-zinc-950 p-6 hover:border-pink-500/50 transition-colors"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 via-orange-400/10 to-teal-400/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
@@ -71,11 +78,12 @@ const ServicesSection = () => {
                   Learn more <FaChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
+
 export default ServicesSection;

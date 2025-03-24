@@ -41,7 +41,7 @@ const ProcessSection = () => {
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
               How we bring your vision to life
             </h2>
-            <p className="max-w-[900px] text-gray-800 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-gray-500 dark:text-zinc-400  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Our proven design process ensures we deliver exceptional results that exceed your expectations.
             </p>
           </div>

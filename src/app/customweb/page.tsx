@@ -68,45 +68,14 @@ const Customlogo = () => {
   ]
 
   return (
-
     <section id="logo" className="w-full pt-28 py-12 md:py-24 lg:py-32 dark:bg-zinc-900 bg-white">
-      <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
-        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">CUSTOM LOGO</h3>
-        </div>
-      <div className="w-full py-16 bg-white dark:bg-black container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row items-center">
-        {/* Left Side - Text */}
-        <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
-            Stand Out with Custom Logo Designs
-          </h2>
-          <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
-            Stand out from the competition with unique and eye-catching custom graphical designs that will make your business logo truly one-of-a-kind. Our professional designers ensure every element is tailored to reflect your brand’s personality and values.
-          </p>
-          <p className="mt-2 text-gray-600 dark:text-gray-300 leading-relaxed">
-            Gain a competitive edge with our top-tier custom logo designs that make a lasting impression.
-          </p>
-        </div>
-
-        {/* Right Side - Image */}
-        <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
-          <Image
-            src="/images/graphic.png" // Replace with your image path
-            alt="Graphic Designer Illustration"
-            width={400}
-            height={200}
-            // className="w-auto h-auto"
-          />
-        </div>
-      </div>
-    
-   
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
           
           </div>
           <div className="rounded-sm ">
-            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">LOGOS</h4></div>
+            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">CUSTOM WEB DEVELOPMENT</h4></div>
         </div>
         <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (

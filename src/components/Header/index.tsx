@@ -162,7 +162,7 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-18 w-full lg:pr-0">
                 <Link
-                  href="/signup"
+                  href="https://inksnitch.com/"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-gradient-to-r bg-pink-600 from-yellow from-cyan-500 px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Print on Demand

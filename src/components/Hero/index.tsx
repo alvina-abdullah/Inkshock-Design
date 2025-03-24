@@ -44,18 +44,22 @@ const Hero = () => {
                 transition={{ duration: 1, ease: "easeOut", delay: 0.6 }}
                 className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
               >
+                <button className="cursor-pointer ">
                 <Link
                   href="/portfolio"
-                  className="rounded-sm bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  className="cursor-pointer rounded-sm bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                 >
                   View Our Work
                 </Link>
+                </button>
+                <button className="cursor-pointer ">
                 <Link
                   href="/packages"
                   className="inline-block rounded-sm border border-pink-500 via-orange-400 to-teal-400 px-8 py-4 text-base font-semibold text-black dark:text-white duration-300 ease-in-out"
                 >
                   Get Started
                 </Link>
+                </button>
               </motion.div>
             </motion.div>
           </div>
