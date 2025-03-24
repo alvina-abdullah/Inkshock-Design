@@ -1,7 +1,7 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { FaChevronCircleRight } from "react-icons/fa"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { FaChevronCircleRight } from "react-icons/fa";
 
 const WorkSection = () => {
   const projects = [
@@ -48,11 +48,6 @@ const WorkSection = () => {
     {
       title: "Marketing Campaign",
       category: "Branding & Digital",
-      image: "/images/work/logo8.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
       image: "/images/work/logo10.png?height=400&width=600",
     },
     {
@@ -65,7 +60,7 @@ const WorkSection = () => {
       category: "Branding & Digital",
       image: "/images/work/logo12.png?height=400&width=600",
     },
-  ]
+  ];
 
   return (
     <section id="work" className="w-full py-12 md:py-24 lg:py-32 dark:bg-zinc-900 bg-white">
@@ -82,8 +77,11 @@ const WorkSection = () => {
               Take a look at some of our recent projects and see how we have helped businesses like yours make an impact.
             </p>
           </div>
-          <div className="rounded-sm ">
-            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">LOGOS</h4></div>
+          <div className="rounded-sm">
+            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
+              LOGOS
+            </h4>
+          </div>
         </div>
         <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
@@ -106,12 +104,13 @@ const WorkSection = () => {
           ))}
         </div>
         <div className="flex justify-center mt-8">
-          <button className=" rounded-sm  px-8 py-3 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black hover:opacity-90 transition-opacity">
+          <button className="rounded-sm px-8 py-3 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black hover:opacity-90 transition-opacity">
             View All Projects
           </button>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
+
 export default WorkSection;

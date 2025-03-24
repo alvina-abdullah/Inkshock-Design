@@ -28,7 +28,7 @@ const Aboutsection = () => {
       <div className="relative bg-cover bg-center py-16 px-6 text-white" style={{ backgroundImage: "url('/unique-bg.png')" }}>
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black dark:text-white px-4 py-2 inline-block rounded-full text-sm font-semibold">
-          Inkshock Design
+            Inkshock Design
           </div>
           <h2 className="text-4xl font-bold mt-4 text-black dark:text-white">What Makes Inkshock Design Unique</h2>
           <p className="mt-4 text-lg text-black dark:text-white">
@@ -39,7 +39,7 @@ const Aboutsection = () => {
           </p>
           <ul className="mt-6 text-left text-lg space-y-2 text-black dark:text-white">
             <li>✔ Extensive collection of logo icons tailored to every major industry</li>
-            <li>✔ Vast selection of fonts and colors to match your brand&aposs personality</li>
+            <li>✔ Vast selection of fonts and colors to match your brand&apos;s personality</li>
             <li>✔ Unlimited logo creation possibilities</li>
             <li>✔ Downloadable image files in various formats (PNG, JPG, GIF, EPS)</li>
             <li>✔ On-site access to promotional products showcasing your logo</li>
@@ -81,10 +81,12 @@ const Aboutsection = () => {
           <Image src="/founder-image.png" width={500} height={400} alt="Muhammad Tabish" className="rounded-lg" />
         </div>
         <div className="lg:w-1/2">
-          <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400text-green-500 font-bold">MEET OUR FOUNDER</h3>
+          <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-green-500 font-bold">
+            MEET OUR FOUNDER
+          </h3>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Muhammad Owais</h2>
           <p className="text-gray-700 mt-4">
-            Muhammad Owais, the founder of Inkshock Design, is the creative genius behind our agency success. 
+            Muhammad Owais, the founder of Inkshock Design, is the creative genius behind our agency&apos;s success. 
             With a genuine passion for design, he has turned our agency into a go-to destination for top-notch work.
           </p>
         </div>
