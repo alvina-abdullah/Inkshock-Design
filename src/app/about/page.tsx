@@ -39,7 +39,7 @@ const Aboutsection = () => {
           </p>
           <ul className="mt-6 text-left text-lg space-y-2 text-black dark:text-white">
             <li>✔ Extensive collection of logo icons tailored to every major industry</li>
-            <li>✔ Vast selection of fonts and colors to match your brand’s personality</li>
+            <li>✔ Vast selection of fonts and colors to match your brand&aposs personality</li>
             <li>✔ Unlimited logo creation possibilities</li>
             <li>✔ Downloadable image files in various formats (PNG, JPG, GIF, EPS)</li>
             <li>✔ On-site access to promotional products showcasing your logo</li>
