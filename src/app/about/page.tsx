@@ -57,7 +57,7 @@ const Aboutsection = () => {
           <p className="mt-4 text-lg text-black dark:text-white">
             At InkShock Design, we craft stunning visuals, high-performance
             websites, and powerful branding solutions to help businesses make a
-            lasting impact. Whether you're a startup looking for a bold identity
+            lasting impact. Whether you&apos;re a startup looking for a bold identity
             or an established brand in need of a revamp, we bring your vision to
             life with cutting-edge design and seamless digital experiences.
           </p>
