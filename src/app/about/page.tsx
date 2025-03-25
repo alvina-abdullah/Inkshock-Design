@@ -107,7 +107,7 @@ const Aboutsection = () => {
             <div className="inline-block rounded-full bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-4 py-2 text-sm font-semibold text-white">
               MISSION-DRIVEN
             </div>
-            <h2 className="mt-4 text-3xl font-bold text-gray-900 dark:text-white">
+            <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white">
               A Quest To Help Others
             </h2>
           </div>

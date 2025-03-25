@@ -110,6 +110,7 @@ const WorkSection = () => {
         </div>
       </div>
     </section>
+  
   );
 };
 

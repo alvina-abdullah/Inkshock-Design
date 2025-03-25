@@ -8,17 +8,17 @@ const Customlogo = () => {
     {
       title: "Vibrant Branding",
       category: "Brand Identity",
-      image: "/images/work/logo1.png?height=400&width=600",
+      image: "/images/web/web1.png?height=400&width=600",
     },
     {
       title: "Modern E-commerce",
       category: "Web Design",
-      image: "/images/work/logo2.png?height=400&width=600",
+      image: "/images/web/web2.png?height=400&width=600",
     },
     {
       title: "App Interface",
       category: "UI/UX Design",
-      image: "/images/work/logo3.png?height=400&width=600",
+      image: "/images/web/web3.png?height=400&width=600",
     },
     {
       title: "Product Packaging",
@@ -72,6 +72,34 @@ const Customlogo = () => {
       <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
         <h3 className="text-center text-white pt-16 text-4xl font-extrabold">CUSTOM WEB DEVELOPMENT</h3>
         </div>
+        <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12">
+      <div className="md:w-1/2">
+        <Image 
+          src="/images/web/web.png" 
+          alt="Web Development Illustration"
+          width={500}
+          height={400}
+          className="max-w-full"
+        />
+      </div>
+      <div className="md:w-1/2 text-black dark:text-white">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
+          Increase Your Online Presence
+        </h2>
+        <p className="text-lg leading-relaxed">
+          Increase your online presence and attract more customers with our professional
+          website development services. With our expertise in custom web development
+          and design, we create stunning and unique websites tailored specifically to your
+          business needs.
+        </p>
+        <p className="text-lg leading-relaxed mt-4">
+          Stand out from the competition and showcase your brand with a visually
+          appealing and user-friendly website that is guaranteed to engage your audience.
+          Gain credibility and trust with a professionally designed website that reflects the
+          quality of your products or services.
+        </p>
+      </div>
+    </section>
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
