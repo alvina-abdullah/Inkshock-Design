@@ -45,13 +45,13 @@ const menuData: Menu[] = [
       {
         id: 43,
         title: "Vedio Animation ",
-        path: "/blo",
+        path: "/customvideo",
         newTab: false,
       },
       {
         id: 44,
         title: "Branding",
-        path: "/branding",
+        path: "/custombranding",
         newTab: false,
       },
       // {

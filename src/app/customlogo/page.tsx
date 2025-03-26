@@ -74,8 +74,11 @@ const Customlogo = () => {
       <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
         <h3 className="text-center text-white pt-16 text-4xl font-extrabold">CUSTOM LOGO DESIGN</h3>
         </div>
-      <div className="w-full py-16 bg-white dark:bg-black container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row items-center">
+      {/* <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12"> */}
+
+      <div className="w-full py-12 bg-white dark:bg-black container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row items-center">
         {/* Left Side - Text */}
+
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
             Stand Out with Custom Logo Designs
@@ -99,6 +102,7 @@ const Customlogo = () => {
           />
         </div>
       </div>
+      {/* </section> */}
     
    
       <div className="container px-4 md:px-6">
