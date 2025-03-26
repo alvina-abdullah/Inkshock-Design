@@ -174,7 +174,7 @@ const FeatureSection = () => {
               className="rounded-lg bg-white p-6 text-center shadow-md"
             >
               <p className="mt-2 italic text-gray-600">
-                "{testimonial.review}"
+              &quot;{testimonial.review}"
               </p>
               <h3 className="mt-4 text-lg font-bold">{testimonial.name}</h3>
             </div>
