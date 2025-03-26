@@ -2,12 +2,12 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { FaChevronCircleRight } from "react-icons/fa"
-
+import Packages from "@/components/Web-Packages";
 const Customlogo = () => {
   const projects = [
     {
       title: "Vibrant Branding",
-      category: "Brand Identity",
+      category: "Web Design",
       image: "/images/web/web1.png?height=400&width=600",
     },
     {
@@ -17,52 +17,52 @@ const Customlogo = () => {
     },
     {
       title: "App Interface",
-      category: "UI/UX Design",
+      category:"Web Design",
       image: "/images/web/web3.png?height=400&width=600",
     },
     {
       title: "Product Packaging",
-      category: "Print Design",
-      image: "/images/work/logo4.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/web/web4.png?height=400&width=600",
     },
     {
       title: "Custom Illustrations",
-      category: "Illustration",
+      category: "Web Design",
       image: "/images/work/logo5.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo6.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/web/web6.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaig",
+      category: "Web Design",
+      image: "/images/web/web7.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo7.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/web/web8.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
+      category: "Web Design",
       image: "/images/work/logo8.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo8.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
+      category: "Web Design",
       image: "/images/work/logo10.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
+      category: "Web Design",
       image: "/images/work/logo11.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
+      category: "Web Design",
       image: "/images/work/logo12.png?height=400&width=600",
     },
   ]
@@ -106,7 +106,7 @@ const Customlogo = () => {
           
           </div>
           <div className="rounded-sm ">
-            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">CUSTOM WEB DEVELOPMENT</h4></div>
+            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">WEB DEVELOPMENT</h4></div>
         </div>
         <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
@@ -121,9 +121,9 @@ const Customlogo = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <div className="text-sm font-medium text-pink-500">{project.category}</div>
                 <h3 className="text-xl font-bold text-white">{project.title}</h3>
-                <Link href="#" className="mt-2 inline-flex items-center text-white hover:text-pink-400">
+                {/* <Link href="#" className="mt-2 inline-flex items-center text-white hover:text-pink-400">
                   View Project <FaChevronCircleRight className="ml-1 h-4 w-4" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}
@@ -134,6 +134,7 @@ const Customlogo = () => {
           </button>
         </div>
       </div>
+      <Packages/>
     </section>
   )
 }
