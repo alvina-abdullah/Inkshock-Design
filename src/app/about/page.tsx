@@ -52,9 +52,9 @@ const AboutSection = () => {
           transition={{ duration: 1 }}
         >
           <Image
-            src="/images/about/image.png"
-            width={600}
-            height={400}
+            src="/images/about/about.png"
+            width={400}
+            height={200}
             alt="About Us"
             className="rounded-lg"
           />
