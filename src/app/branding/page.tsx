@@ -2,80 +2,65 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { FaChevronCircleRight } from "react-icons/fa"
-
+import BrandingPackages from "@/components/Branding-Packages";
 const Customlogo = () => {
   const projects = [
     {
       title: "Vibrant Branding",
-      category: "Brand Identity",
-      image: "/images/web/web1.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/branding/branding1.jpeg?height=400&width=600",
     },
     {
       title: "Modern E-commerce",
       category: "Web Design",
-      image: "/images/web/web2.png?height=400&width=600",
+      image: "/images/branding/branding2.jpeg?height=400&width=600",
     },
     {
       title: "App Interface",
-      category: "UI/UX Design",
-      image: "/images/web/web3.png?height=400&width=600",
+      category:"Web Design",
+      image: "/images/branding/branding3.jpeg?height=400&width=600",
     },
     {
       title: "Product Packaging",
-      category: "Print Design",
-      image: "/images/work/logo4.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/branding/branding4.jpeg?height=400&width=600",
     },
     {
       title: "Custom Illustrations",
-      category: "Illustration",
-      image: "/images/work/logo5.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/branding/branding5.jpeg?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo6.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/branding/branding6.jpeg?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaig",
+      category: "Web Design",
+      image: "/images/branding/branding7.jpeg?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo7.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/branding/branding8.jpeg?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo8.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo8.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo10.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo11.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo12.png?height=400&width=600",
+      category: "Web Design",
+      image: "/images/branding/branding9.jpeg?height=400&width=600",
     },
   ]
 
   return (
     <section id="logo" className="w-full pt-28 py-12 md:py-24 lg:py-32 dark:bg-zinc-900 bg-white">
       <div className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
-        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">CUSTOM WEB DEVELOPMENT</h3>
+        <h3 className="text-center text-white pt-16 text-4xl font-extrabold">BRANDING</h3>
         </div>
         <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12">
       <div className="md:w-1/2">
         <Image 
-          src="/images/web/web.png" 
+          src="/images/branding.png" 
           alt="Web Development Illustration"
           width={500}
           height={400}
@@ -106,7 +91,7 @@ const Customlogo = () => {
           
           </div>
           <div className="rounded-sm ">
-            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">CUSTOM WEB DEVELOPMENT</h4></div>
+            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">WEB DEVELOPMENT</h4></div>
         </div>
         <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
@@ -121,9 +106,9 @@ const Customlogo = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <div className="text-sm font-medium text-pink-500">{project.category}</div>
                 <h3 className="text-xl font-bold text-white">{project.title}</h3>
-                <Link href="#" className="mt-2 inline-flex items-center text-white hover:text-pink-400">
+                {/* <Link href="#" className="mt-2 inline-flex items-center text-white hover:text-pink-400">
                   View Project <FaChevronCircleRight className="ml-1 h-4 w-4" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}
@@ -134,6 +119,7 @@ const Customlogo = () => {
           </button>
         </div>
       </div>
+      <BrandingPackages/>
     </section>
   )
 }

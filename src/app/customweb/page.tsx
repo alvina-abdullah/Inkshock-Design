@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { FaChevronCircleRight } from "react-icons/fa"
-import Packages from "@/components/Web-Packages";
+import WebPackages from "@/components/Web-Packages";
 const Customlogo = () => {
   const projects = [
     {
@@ -134,7 +134,7 @@ const Customlogo = () => {
           </button>
         </div>
       </div>
-      <Packages/>
+      <WebPackages/>
     </section>
   )
 }

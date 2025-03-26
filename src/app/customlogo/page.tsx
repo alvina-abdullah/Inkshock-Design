@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { FaChevronCircleRight } from "react-icons/fa"
-import Packages from "@/components/Logo-Packages";
+import LogoPackages from "@/components/Logo-Packages";
 import { IoMdLogOut } from "react-icons/io";
 const Customlogo = () => {
   const projects = [
@@ -135,7 +135,7 @@ const Customlogo = () => {
           </button> */}
         </div>
         <div>
-      <Packages/>
+      <LogoPackages/>
       </div>
       </div>
   
