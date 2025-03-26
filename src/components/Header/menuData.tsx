@@ -44,7 +44,7 @@ const menuData: Menu[] = [
       },
       {
         id: 43,
-        title: "Vedio Animation ",
+        title: "Video Animation ",
         path: "/customvideo",
         newTab: false,
       },
