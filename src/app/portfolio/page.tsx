@@ -8,7 +8,7 @@ const WorkSection = () => {
     {
       title: "Vibrant Branding",
       category: "Brand Identity",
-      image: "/images/branding/branding1.png?height=400&width=600",
+      image: "/images/work/logo1.png?height=400&width=600",
     },
     {
       title: "Modern E-commerce",
