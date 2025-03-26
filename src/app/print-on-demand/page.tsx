@@ -31,7 +31,7 @@ const FeatureSection = () => {
           </h2>
 
           <p className="mt-4 text-lg">
-            At Inkshock Design, we're dedicated to delivering high-quality,
+            At Inkshock Design, we&apos;re dedicated to delivering high-quality,
             comfortable, and stylish apparel that exceeds your expectations,we
             believe fashion is an extension of your personality. Our
             premium-quality, custom-designed let you showcase your
