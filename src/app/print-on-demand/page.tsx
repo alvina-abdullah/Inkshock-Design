@@ -123,8 +123,7 @@ const FeatureSection = () => {
     ))}
   </div>
 </section>
-
-
+<Categories/>
       {/* Shop by Category */}
       <section className="px-8 py-12 md:px-16 lg:px-24">
         <h2 className="text-center text-3xl font-bold">Shop by Category</h2>
@@ -208,7 +207,7 @@ const FeatureSection = () => {
         </div>
       </section> */}
 
-{/* <Categories/> */}
+
 {/* <BulkDiscountBanner/> */}
     </div>
   );

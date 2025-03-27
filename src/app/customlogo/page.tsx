@@ -71,7 +71,20 @@ const Customlogo = () => {
       category: "Branding & Digital",
       image: "/images/work/logo13.png?height=400&width=600",
     },
-    
+    {
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
+      image: "/images/work/logo14.png?height=400&width=600",
+    },
+    {
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
+      image: "/images/work/logo15.png?height=400&width=600",
+    },    {
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
+      image: "/images/work/logo16.png?height=400&width=600",
+    },
   ]
 
   return (
