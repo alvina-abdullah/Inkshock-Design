@@ -2,6 +2,7 @@ import React from "react";
 import LogoPackages from "@/components/Logo-Packages";
 import WebPackages from "@/components/Web-Packages";
 import BrandingPackages from "@/components/Branding-Packages";
+import  VideoPackages from "@/components/Video-Packages";
 const PricingSection = () => {
 return(
   <>
@@ -11,6 +12,7 @@ return(
   <LogoPackages/>
   <WebPackages/>
   <BrandingPackages/>
+  <VideoPackages/>
   </>
 )
 }
