@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const packages = [
+const Packages = [
   {
     category: "Logo",
     title: "Basic Logo Package",
@@ -62,7 +62,7 @@ const PackagesPage = () => {
                 onClick={() => setActiveTab(category)}
                 className={`px-6 py-3 font-semibold transition-all ${
                   activeTab === category
-                    ? "bg-gray-800 text-white dark:bg-pink-600"
+                    ? "bg-gray-600 text-white dark:bg-pink-600"
                     : "text-gray-600"
                 }`}
               >

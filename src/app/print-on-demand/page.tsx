@@ -1,7 +1,7 @@
 "use client";
-import Categories from "@/components/categories";
+import Categories from "@/components/Categories";
 import PrintPackages from "@/components/Print-Packages";
-import FeatureCards from "@/components/Featurecads.tsx";
+import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";

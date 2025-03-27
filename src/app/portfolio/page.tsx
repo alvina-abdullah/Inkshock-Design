@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaChevronCircleRight } from "react-icons/fa";
 
-const WorkSection = () => {
+const Portfolio = () => {
   const projects = [
     {
       title: "Vibrant Branding",
@@ -155,4 +155,4 @@ const WorkSection = () => {
   );
 };
 
-export default WorkSection;
+export default Portfolio;
