@@ -1,4 +1,3 @@
-'use client';
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
@@ -20,99 +19,15 @@ const Customlogo = () => {
   const projects = [
     {
       title: "Custom Illustrations",
-      category: "logo",
+      category: "Branding & Digital",
       image: "/images/work/logo1.png?height=400&width=600",
     },
     {
       title: "Custom Illustrations",
-      category: "logo",
+      category: "Branding & Digital",
       image: "/images/work/logo2.png?height=400&width=600",
     },
-    {
-      title: "App Interface",
-      category: "logo",
-      image: "/images/work/logo3.png?height=400&width=600",
-    },
-    {
-      title: "Product Packaging",
-      category: "logo",
-      image: "/images/work/logo4.png?height=400&width=600",
-    },
-    {
-      title: "Custom Illustrations",
-      category: "logo",
-      image: "/images/work/logo5.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "logo",
-      image: "/images/work/logo6.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "logo",
-      image: "/images/work/logo7.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "",
-      image: "/images/work/logo8.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo9.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo10.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo11.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo12.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo13.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo14.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo15.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo16.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo17.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo18.png?height=400&width=600",
-    },
-    {
-      title: "Marketing Campaign",
-      category: "Branding & Digital",
-      image: "/images/work/logo19.png?height=400&width=600",
-    },
+    // More projects...
   ];
 
   return (
@@ -151,7 +66,12 @@ const Customlogo = () => {
 
         <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
-            <motion.div key={index} className="group relative overflow-hidden rounded-lg" variants={fadeIn} whileHover="hover" variants={hoverEffect}>
+            <motion.div 
+              key={index} 
+              className="group relative overflow-hidden rounded-lg" 
+              variants={{ ...fadeIn, hover: hoverEffect.hover }}
+              whileHover="hover"
+            >
               <Image
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
