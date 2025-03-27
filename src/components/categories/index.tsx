@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 
 const categories = [
   { name: "T-Shirts", image: "/images/categories/tshirt.jpeg", bg: "bg-pink-600" },
-  { name: "Shirts", image: "/images/categories/shirt.jpeg", bg: "bg-pink-600" },
-  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-pink-300" },
-  { name: "Caps", image: "/images/categories/caps.jpeg", bg: "bg-pink-600" },
+  { name: "Shirts", image: "/images/categories/shirt.jpeg", bg: "bg-orange-400" },
+  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-yellow" },
+  { name: "Caps", image: "/images/categories/caps.jpeg", bg: "bg-teal-300" },
 ];
 
 const Categories = () => {
@@ -19,9 +19,9 @@ const Categories = () => {
   }, []);
 
   return (
-    <section className="bg-white dark:bg-black py-16 px-8 md:px-16 lg:px-24 text-black dark:text-white text-center">
+    <section className="bg-white  dark:bg-black py-16 px-8 md:px-16 lg:px-24 text-black dark:text-white text-center">
       <h2 className="text-3xl font-bold animate-fadeIn">Top Categories</h2>
-      <p className="mt-2 text-gray-300 animate-fadeIn">
+      <p className="mt-2 dark:text-gray-200 text-gray-700  animate-fadeIn">
         Inkshock features a wide range of personalized products.  
         From trendy apparel to unique creations, explore our selection today.
       </p>

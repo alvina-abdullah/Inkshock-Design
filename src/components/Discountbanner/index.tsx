@@ -2,7 +2,7 @@ const BulkDiscountBanner = () => {
   return (
     <section className="relative bg-white dark:bg-black py-16 px-8 md:px-16 lg:px-24 dark:text-white text text-center overflow-hidden">
       {/* Background Gradient Effect */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-pink-600 to-black dark:fr opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-white via-pink-600 to-white dark:from-white dark:via-pink-600 dark:to-black opacity-50"></div>
 
       {/* Content */}
       <div className="relative z-10">
