@@ -78,7 +78,12 @@ const Customlogo = () => {
     {
       title: "Marketing Campaign",
       category: "Web Design",
-      image: "/images/web/web15 .png?height=400&width=600",
+      image: "/images/web/web15.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web16.png?height=400&width=600",
     },
   ]
 
