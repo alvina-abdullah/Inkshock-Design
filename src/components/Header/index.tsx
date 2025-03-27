@@ -43,7 +43,7 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
-            ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
             : "absolute bg-transparent"
         }`}
       >
@@ -104,11 +104,9 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-
-
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
-                      <li key={`${index}-${index}`}className="group relative">
+                      <li key={`${index}-${index}`} className="group relative">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
@@ -147,7 +145,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
-                                  className="block rounded py-2.5 text-sm  hover:text-pink-600 dark:text-white/70 dark:hover:text-pink-600  lg:px-3"
+                                  className="block rounded py-2.5 text-sm hover:text-pink-600 dark:text-white/70 dark:hover:text-pink-600 lg:px-3"
                                 >
                                   {submenuItem.title}
                                 </Link>
@@ -157,13 +155,23 @@ const Header = () => {
                         )}
                       </li>
                     ))}
+
+                    {/* Print on Demand button (Moved inside menu) */}
+                    <li className="mt-4 lg:hidden">
+                      <Link
+                        href="/print-on-demand"
+                        className="block w-full rounded-sm bg-pink-600 bg-gradient-to-r from-cyan-500 from-yellow px-4 py-2 text-center text-white transition hover:bg-opacity-90"
+                      >
+                        Print on Demand
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-18 w-full lg:pr-0">
+              <div className="pr-18 flex w-full items-center justify-end lg:pr-0">
                 <Link
                   href="/print-on-demand"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-gradient-to-r bg-pink-600 from-yellow from-cyan-500 px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+                  className="ease-in-up flex-shrink-0 rounded-sm hidden bg-pink-600 bg-gradient-to-r from-cyan-500 from-yellow px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Print on Demand
                 </Link>
