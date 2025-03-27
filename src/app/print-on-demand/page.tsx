@@ -109,8 +109,11 @@ const FeatureSection = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">
+      
+      <Categories />
+
+{/* Features Section */}
+<section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">
         {/* Left Gradient with Animation */}
         <div className="animate-moveLeft absolute left-0 top-0 h-full w-1/3 bg-gradient-to-r from-pink-600 to-transparent opacity-60"></div>
 
@@ -160,8 +163,6 @@ const FeatureSection = () => {
           ))}
         </div>
       </section>
-      <Categories />
-
       {/* Shop by Category */}
       <section className="px-8 py-12 md:px-16 lg:px-24">
         <h2 className="text-center text-3xl font-bold">Shop by Category</h2>
@@ -188,62 +189,7 @@ const FeatureSection = () => {
         </div>
       </section>
 
-      {/* Best Sellers */}
-      {/* <section className="bg-white py-12">
-        <div className="container mx-auto px-4 text-center">
-          <h3 className="text-3xl font-extrabold mb-3 text-black ">
-            Top Categories
-          </h3>
-          <p></p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
-            
-            <div className="p-5 bg-white rounded-lg shadow-md shadow-[#ff7dc9] text-black transition-transform duration-300 hover:scale-110">
-              <img
-                src="Quality.jpg"
-                alt="Team Member 3"
-                className="w-full h-48 rounded-lg  mx-auto mb-4"
-              />
-              <h4 className="text-xl font-bold mb-4">Full Sleeves T-Shirt</h4>
-              <p>
-              Casual, cool, and ideal for everyday wear or outdoor activities
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md shadow-[#ff7dc9] text-black transition-transform duration-300 hover:scale-110">
-              <img
-                src="Sustainability.jpg"
-                alt="Team Member 3"
-                className="w-full h-48 rounded-lg  mx-auto mb-4 "
-              />
-              <h4 className="text-xl font-bold mb-4">Full Sleeves Shirt</h4>
-              <p>
-              Sleek, professional, and perfect for work or a night out
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md shadow-[#ff7dc9] text-black transition-transform duration-300 hover:scale-110">
-              <img
-                src="Community.jpg"
-                alt="Team Member 3"
-                className="w-full h-48 rounded-lg  mx-auto mb-4"
-              />
-              <h4 className="text-xl font-bold mb-4">Hoodies</h4>
-              <p>
-              Cozy, confident, and perfect for gym enthusiasts, streetwear lovers, and anyone who loves comfort
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md shadow-[#ff7dc9] text-black transition-transform duration-300 hover:scale-110">
-              <img
-                src="Community.jpg"
-                alt="Team Member 3"
-                className="w-full h-48 rounded-lg  mx-auto mb-4"
-              />
-              <h4 className="text-xl font-bold mb-4">Caps</h4>
-              <p>
-              Stylish, versatile, and perfect for adding a finishing touch to your outfit
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> */}
+
 <PrintPackages/>
       {/* <BulkDiscountBanner/> */}
       <FeatureCards/>

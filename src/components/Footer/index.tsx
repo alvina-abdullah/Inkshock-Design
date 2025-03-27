@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t border-zinc-800 pt-6 md:flex-row">
-          <p className="text-sm text-black dark:text-white">© {new Date().getFullYear()} InkShock Design. All rights reserved.</p>
+          <p className="text-sm text-black dark:text-white">© 2020 InkShock Design. All rights reserved.</p>
           <div className="flex gap-4">
             <Link href="#" className="text-black dark:text-white hover:text-pink-500 transition-colors">
               <FaInstagram className="h-5 w-5" />
