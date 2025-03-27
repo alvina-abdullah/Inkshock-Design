@@ -1,6 +1,6 @@
 "use client";
 import Categories from "@/components/categories";
-import BulkDiscountBanner from "@/components/Discountbanner";
+import PrintPackages from "@/components/Print-Packages";
 import FeatureCards from "@/components/Featurecads.tsx";
 import Image from "next/image";
 import Link from "next/link";
@@ -161,7 +161,7 @@ const FeatureSection = () => {
         </div>
       </section>
       <Categories />
-{/* <FeatureCards/> */}
+
       {/* Shop by Category */}
       <section className="px-8 py-12 md:px-16 lg:px-24">
         <h2 className="text-center text-3xl font-bold">Shop by Category</h2>
@@ -244,8 +244,9 @@ const FeatureSection = () => {
           </div>
         </div>
       </section> */}
-
+<PrintPackages/>
       {/* <BulkDiscountBanner/> */}
+      <FeatureCards/>
     </div>
   );
 };
