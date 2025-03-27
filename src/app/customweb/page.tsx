@@ -25,46 +25,61 @@ const Customlogo = () => {
       category: "Web Design",
       image: "/images/web/web4.png?height=400&width=600",
     },
-    // {
-    //   title: "Marketing Campaign",
-    //   category: "Web Design",
-    //   image: "/images/work/logo5.png?height=400&width=600",
-    // },
-    // {
-    //   title: "Marketing Campaign",
-    //   category: "Web Design",
-    //   image: "/images/web/web6.png?height=400&width=600",
-    // },
-    // {
-    //   title: "Marketing Campaig",
-    //   category: "Web Design",
-    //   image: "/images/web/web7.png?height=400&width=600",
-    // },
-    // {
-    //   title: "Marketing Campaign",
-    //   category: "Web Design",
-    //   image: "/images/web/web8.png?height=400&width=600",
-    // },
-    // {
-    //   title: "Marketing Campaign",
-    //   category: "Web Design",
-    //   image: "/images/work/logo8.png?height=400&width=600",
-    // },
-    // {
-    //   title: "Marketing Campaign",
-    //   category: "Web Design",
-    //   image: "/images/work/logo10.png?height=400&width=600",
-    // },
-    // {
-    //   title: "Marketing Campaign",
-    //   category: "Web Design",
-    //   image: "/images/work/logo11.png?height=400&width=600",
-    // },
-    // {
-    //   title: "Marketing Campaign",
-    //   category: "Web Design",
-    //   image: "/images/work/logo12.png?height=400&width=600",
-    // },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web5.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web6.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaig",
+      category: "Web Design",
+      image: "/images/web/web7.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web8.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web9.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web10.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web11.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web12.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web13.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web14.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web15 .png?height=400&width=600",
+    },
   ]
 
   return (

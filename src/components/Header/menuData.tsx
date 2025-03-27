@@ -54,30 +54,6 @@ const menuData: Menu[] = [
         path: "/custombranding",
         newTab: false,
       },
-      // {
-      //   id: 45,
-      //   title: "Blog Details Page",
-      //   path: "/blog-details",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 46,
-      //   title: "Sign In Page",
-      //   path: "/signin",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 47,
-      //   title: "Sign Up Page",
-      //   path: "/signup",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 48,
-      //   title: "Error Page",
-      //   path: "/error",
-      //   newTab: false,
-      // },
     ],
   },
   {
@@ -86,11 +62,5 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
-  // {
-  //   id: 5,
-  //   title: "Print on Demand",
-  //   path: "/print-on-demand",
-  //   newTab: false,
-  // },
 ];
 export default menuData;
