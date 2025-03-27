@@ -7,65 +7,71 @@ import { IoMdLogOut } from "react-icons/io";
 const Customlogo = () => {
   const projects = [
     {
-      title: "Vibrant Branding",
-      category: "Brand Identity",
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
       image: "/images/work/logo1.png?height=400&width=600",
     },
     {
-      title: "Modern E-commerce",
-      category: "Web Design",
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
       image: "/images/work/logo2.png?height=400&width=600",
     },
     {
-      title: "App Interface",
-      category: "UI/UX Design",
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
       image: "/images/work/logo3.png?height=400&width=600",
     },
     {
-      title: "Product Packaging",
-      category: "Print Design",
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
       image: "/images/work/logo4.png?height=400&width=600",
     },
     {
       title: "Custom Illustrations",
-      category: "Illustration",
+      category: "Branding & Digital",
       image: "/images/work/logo5.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
+      title: "Custom Illustrations",
       category: "Branding & Digital",
       image: "/images/work/logo6.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
+      title: "Custom Illustrations",
       category: "Branding & Digital",
       image: "/images/work/logo7.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
+      title: "Custom Illustrations",
       category: "Branding & Digital",
       image: "/images/work/logo8.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
+      title: "Custom Illustrations",
       category: "Branding & Digital",
-      image: "/images/work/logo8.png?height=400&width=600",
+      image: "/images/work/logo9.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
+      title: "Custom Illustrations",
       category: "Branding & Digital",
       image: "/images/work/logo10.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
+      title: "Custom Illustrations",
       category: "Branding & Digital",
       image: "/images/work/logo11.png?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
+      title: "Custom Illustrations",
       category: "Branding & Digital",
       image: "/images/work/logo12.png?height=400&width=600",
     },
+    {
+      title: "Custom Illustrations",
+      category: "Branding & Digital",
+      image: "/images/work/logo13.png?height=400&width=600",
+    },
+    
   ]
 
   return (

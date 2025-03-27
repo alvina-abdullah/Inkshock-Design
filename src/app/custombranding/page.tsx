@@ -7,47 +7,47 @@ const Branding = () => {
   const projects = [
     {
       title: "Vibrant Branding",
-      category: "Web Design",
+      category: "Branding",
       image: "/images/branding/branding1.jpeg?height=400&width=600",
     },
     {
-      title: "Modern E-commerce",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding2.jpeg?height=400&width=600",
     },
     {
-      title: "App Interface",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding3.jpeg?height=400&width=600",
     },
     {
-      title: "Product Packaging",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding4.jpeg?height=400&width=600",
     },
     {
-      title: "Custom Illustrations",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding5.jpeg?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding6.jpeg?height=400&width=600",
     },
     {
-      title: "Marketing Campaig",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding7.jpeg?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding8.jpeg?height=400&width=600",
     },
     {
-      title: "Marketing Campaign",
-      category: "Web Design",
+      title: "Vibrant Branding",
+      category: "Branding",
       image: "/images/branding/branding9.jpeg?height=400&width=600",
     },
   ];
@@ -128,11 +128,11 @@ const Branding = () => {
             </div>
           ))}
         </div>
-        <div className="mt-8 flex justify-center">
+        {/* <div className="mt-8 flex justify-center">
           <button className=" rounded-sm  bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-3 text-black transition-opacity hover:opacity-90">
             View All Projects
           </button>
-        </div>
+        </div> */}
       </div>
       <BrandingPackages />
     </section>

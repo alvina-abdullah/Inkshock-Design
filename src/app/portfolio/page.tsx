@@ -7,43 +7,48 @@ const WorkSection = () => {
   const projects = [
     {
       title: "Vibrant Branding",
-      category: "Brand Identity",
+      category: "logo",
       image: "/images/work/logo1.png?height=400&width=600",
     },
     {
       title: "Modern E-commerce",
-      category: "Web Design",
+      category: "logo",
       image: "/images/work/logo2.png?height=400&width=600",
     },
     {
       title: "App Interface",
-      category: "UI/UX Design",
+      category: "logo",
       image: "/images/work/logo3.png?height=400&width=600",
     },
     {
       title: "Product Packaging",
-      category: "Print Design",
+      category: "logo",
       image: "/images/work/logo4.png?height=400&width=600",
     },
     {
       title: "Custom Illustrations",
-      category: "Illustration",
+      category: "logo",
       image: "/images/work/logo5.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
+      category: "logo",
       image: "/images/work/logo6.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
+      category: "logo",
       image: "/images/work/logo7.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
-      category: "Branding & Digital",
+      category: "",
       image: "/images/work/logo8.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
+      image: "/images/work/logo9.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
@@ -60,6 +65,27 @@ const WorkSection = () => {
       category: "Branding & Digital",
       image: "/images/work/logo12.png?height=400&width=600",
     },
+    {
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
+      image: "/images/work/logo13.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
+      image: "/images/work/logo14.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
+      image: "/images/work/logo15.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
+      image: "/images/work/logo16.png?height=400&width=600",
+    },
+
   ];
 
   return (

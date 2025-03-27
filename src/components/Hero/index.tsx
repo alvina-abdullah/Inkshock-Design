@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+
 const Hero = () => {
   return (
     <section
@@ -63,7 +64,7 @@ const Hero = () => {
               </motion.div>
               </div>
             </motion.div>
-            
+        
           </div>
         </div>
       </div>
