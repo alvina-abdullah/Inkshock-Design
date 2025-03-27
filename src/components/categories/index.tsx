@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const categories = [
   { name: "T-Shirts", image: "/images/categories/tshirt.jpeg", bg: "bg-green-900" },
   { name: "Shirts", image: "/images/categories/shirt.jpeg", bg: "bg-gray-600" },
-  { name: "Hoodies", image: "/images/categories/hoodies.jpeg", bg: "bg-gray-300" },
+  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-gray-300" },
   { name: "Caps", image: "/images/categories/caps.jpeg", bg: "bg-white" },
 ];
 
