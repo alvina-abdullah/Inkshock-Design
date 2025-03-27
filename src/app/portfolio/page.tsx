@@ -95,6 +95,11 @@ const WorkSection = () => {
       category: "Branding & Digital",
       image: "/images/work/logo18.png?height=400&width=600",
     },
+    {
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
+      image: "/images/work/logo19.png?height=400&width=600",
+    },
 
   ];
 

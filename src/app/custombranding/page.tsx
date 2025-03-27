@@ -8,7 +8,7 @@ const Branding = () => {
     {
       title: "Vibrant Branding",
       category: "Branding",
-      image: "/images/branding/branding1.jpeg?height=400&width=600",
+      image: "/images/branding/branding0.png?height=400&width=600",
     },
     {
       title: "Vibrant Branding",
@@ -49,6 +49,11 @@ const Branding = () => {
       title: "Vibrant Branding",
       category: "Branding",
       image: "/images/branding/branding9.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding1.jpeg?height=400&width=600",
     },
   ];
 
