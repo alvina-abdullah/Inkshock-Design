@@ -22,45 +22,45 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-medium text-black dark:text-white">Services</h3>
             <nav className="flex flex-col gap-2">
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Branding & Identity
+              <Link href="/customlogo" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+              Logo Design
               </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+              <Link href="/customweb" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
                 Web Design
               </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                UI/UX Design
+              <Link href="/custombranding" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Branding & Identity
               </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Illustration
-              </Link>
-            </nav>
-          </div>
-          <div className="flex flex-col gap-2">
-            <h3 className="font-medium text-black dark:text-white">Company</h3>
-            <nav className="flex flex-col gap-2">
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                About
-              </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Blog
-              </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Careers
-              </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Contact
+              <Link href="/customvideo" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Video Animation
               </Link>
             </nav>
           </div>
           <div className="flex flex-col gap-2">
             <h3 className="font-medium text-black dark:text-white">Resources</h3>
             <nav className="flex flex-col gap-2">
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+              <Link href="/about" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                About
+              </Link>
+              <Link href="/portfolio" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
                 Portfolio
               </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Case Studies
+              <Link href="/packages" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Packages
+              </Link>
+              <Link href="/contact" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Contact
+              </Link>
+            </nav>
+          </div>
+          <div className="flex flex-col gap-2">
+            <h3 className="font-medium text-black dark:text-white">Links</h3>
+            <nav className="flex flex-col gap-2">
+              <Link href="/process" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Process
+              </Link>
+              <Link href="/services" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Services
               </Link>
               <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
                 Testimonials
