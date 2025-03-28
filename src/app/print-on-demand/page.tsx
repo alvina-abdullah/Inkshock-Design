@@ -7,6 +7,11 @@ import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import ProductSection from "../Shirts/psge";
+import Shirts from "../Shirts/psge";
+import TShirts from "../tshirts/page";
+import Caps from "../caps/page";
+import Hoodies from "../hoodies/page";
 
 const FeatureSection = () => {
   return (
@@ -47,7 +52,7 @@ const FeatureSection = () => {
       </section> */}
 
       {/* Hero Section */}
-      <section className=" text-black dark:text-white flex flex-col items-center justify-between bg-gradient-to-r from-white to-pink-600 px-8 py-12 text-black dark:from-pink-500 md:flex-row md:px-16 lg:px-24">
+      <section className=" flex flex-col items-center justify-between bg-gradient-to-r from-white to-pink-600 px-8 py-12 text-black text-black dark:from-pink-500 dark:text-white md:flex-row md:px-16 lg:px-24">
         {/* Left - Content */}
         <div className="mt-6 w-full md:mt-0 md:w-1/2">
           <p className="flex items-center bg-gradient-to-r from-teal-500 via-orange-600 to-pink-400 bg-clip-text font-bold uppercase text-transparent">
@@ -91,31 +96,36 @@ const FeatureSection = () => {
               artists.
             </li>
           </ul>
-<Link href="/packagesn">
-          <button 
-          className="bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 rounded-lg  px-6 py-3 font-semibold text-white hover:bg-gray-900">
-            Shop Now
-          </button>
+          <Link href="/packagesn">
+            <button className="rounded-lg bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400  px-6 py-3 font-semibold text-white hover:bg-gray-900">
+              Shop Now
+            </button>
           </Link>
         </div>
-      
+
         {/* Right - Hero Image */}
         <div className="flex w-full justify-center md:w-1/2">
-          <Image
+          <iframe
+            src="https://assets.pinterest.com/ext/embed.html?id=AYkRR_cZh5bksy8nxpr5zt2W3XdvEJ2AVkIILaOTk0TgJe2zNdQEqEuoh1q5lmnmMSXA8H_iL15emIMnJoU2jAI"
+            height="532"
+            width="345"
+            frameBorder="0"
+            scrolling="no"
+          ></iframe>
+          {/* <Image
             src="/images/print.png"
             alt="Tattoo T-Shirt"
             width={500}
             height={200}
             className="max-w-full rounded-lg"
-          />
+          /> */}
         </div>
       </section>
 
-      
       <Categories />
 
-{/* Features Section */}
-<section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">
+      {/* Features Section */}
+      <section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">
         {/* Left Gradient with Animation */}
         <div className="animate-moveLeft absolute left-0 top-0 h-full w-1/3 bg-gradient-to-r from-pink-600 to-transparent opacity-60"></div>
 
@@ -165,6 +175,7 @@ const FeatureSection = () => {
           ))}
         </div>
       </section>
+
       {/* Shop by Category */}
       <section className="px-8 py-12 md:px-16 lg:px-24">
         <h2 className="text-center text-3xl font-bold">Shop by Category</h2>
@@ -190,11 +201,12 @@ const FeatureSection = () => {
           ))}
         </div>
       </section>
-
-
-<PrintPackages/>
-      {/* <BulkDiscountBanner/> */}
-      <FeatureCards/>
+      <TShirts />
+      <Shirts />
+      <Hoodies />
+      <Caps />
+      <PrintPackages />
+      <FeatureCards />
     </div>
   );
 };

@@ -2,10 +2,10 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const categories = [
+const allCategories = [
   { name: "T-Shirts", image: "/images/categories/tshirt.jpeg", bg: "bg-pink-600" },
   { name: "Shirts", image: "/images/categories/shirt.jpeg", bg: "bg-orange-400" },
-  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-yellow-400" }, // Fixed color
+  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-yellow" }, // Fixed color
   { name: "Caps", image: "/images/categories/caps.jpeg", bg: "bg-teal-300" },
 ];
 
@@ -29,7 +29,7 @@ const Categories = () => {
       </p>
 
       <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
-        {categories.map((category, index) => (
+        {allCategories.map((category, index) => (
           <div
             key={index}
             className={`relative group rounded-lg p-4 shadow-md overflow-hidden transition-transform duration-300 ${
