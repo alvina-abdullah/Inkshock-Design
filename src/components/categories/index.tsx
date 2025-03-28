@@ -2,31 +2,34 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const option = [
+const categories = [
   { name: "T-Shirts", image: "/images/categories/tshirt.jpeg", bg: "bg-pink-600" },
   { name: "Shirts", image: "/images/categories/shirt.jpeg", bg: "bg-orange-400" },
-  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-yellow" },
+  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-yellow-400" }, // Fixed color
   { name: "Caps", image: "/images/categories/caps.jpeg", bg: "bg-teal-300" },
 ];
+
 const Categories = () => {
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setAnimate(true);
     }, 200);
+
+    return () => clearTimeout(timer); // Cleanup to prevent memory leaks
   }, []);
 
   return (
-    <section className="bg-white  dark:bg-black py-16 px-8 md:px-16 lg:px-24 text-black dark:text-white text-center">
+    <section className="bg-white dark:bg-black py-16 px-8 md:px-16 lg:px-24 text-black dark:text-white text-center">
       <h2 className="text-3xl font-bold animate-fadeIn">Top Categories</h2>
-      <p className="mt-2 dark:text-gray-200 text-gray-700  animate-fadeIn">
+      <p className="mt-2 text-gray-700 dark:text-gray-200 animate-fadeIn">
         Inkshock features a wide range of personalized products.  
         From trendy apparel to unique creations, explore our selection today.
       </p>
 
       <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
-        {option.map((category, index) => (
+        {categories.map((category, index) => (
           <div
             key={index}
             className={`relative group rounded-lg p-4 shadow-md overflow-hidden transition-transform duration-300 ${
