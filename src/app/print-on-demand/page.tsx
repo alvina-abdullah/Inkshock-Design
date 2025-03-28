@@ -4,13 +4,12 @@ import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
-import ProductSection from "../shirts/psge";
-import Shirts from "../shirts/psge";
 import TShirts from "../tshirts/page";
 import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
 // import Categories from "@/components/Categories";
 import PinterestVideo from "../pinterestvideo/page";
+import Shirts from "../shirts/psge";
 
 const FeatureSection = () => {
   return (
@@ -195,8 +194,8 @@ const FeatureSection = () => {
         </div>
       </section>
       <TShirts />
-      <Shirts />
-      <Hoodies />
+      <Shirts/>
+           <Hoodies />
       <Caps />
       <PrintPackages />
       <FeatureCards />
