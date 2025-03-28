@@ -1,5 +1,5 @@
 "use client";
-// import Categories from "@/components/Categories";
+import Categories from "@/components/Categories";
 // import Categories from "../../components/Categories";
 
 import PrintPackages from "@/components/Print-Packages";
@@ -122,7 +122,7 @@ const FeatureSection = () => {
         </div>
       </section>
 
-      {/* <Categories /> */}
+      <Categories />
 
       {/* Features Section */}
       <section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">
