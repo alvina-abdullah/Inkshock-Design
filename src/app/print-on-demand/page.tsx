@@ -1,5 +1,7 @@
 "use client";
-import Categories from "@/components/Categories";
+// import Categories from "@/components/Categories";
+import Categories from "../../components/Categories";
+
 import PrintPackages from "@/components/Print-Packages";
 import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
