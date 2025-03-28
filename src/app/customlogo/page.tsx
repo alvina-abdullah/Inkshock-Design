@@ -134,7 +134,8 @@ const Customlogo = () => {
             Stand Out with Custom Logo Designs
           </h2>
           <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
-            Stand out from the competition with unique and eye-catching custom graphical designs...
+            Stand out from the competition with unique and eye-catching custom graphical designs that will make your business logo truly one-of-a-kind. Our professional designers will ensure that every element of your logo is customized to reflect your brand’s personality and values, creating a lasting impression on your target audience. With our custom graphical designing service, you can be confident that your logo will not only look professional but also effectively communicate your message to potential customers. Gain a competitive edge and establish a strong brand identity with our best-in-class custom logo designs.
+            
           </p>
         </motion.div>
 
