@@ -1,7 +1,4 @@
 "use client";
-import Categories from "@/components/Categories";
-// import Categories from "../../components/Categories";
-
 import PrintPackages from "@/components/Print-Packages";
 import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
@@ -12,6 +9,7 @@ import Shirts from "../Shirts/psge";
 import TShirts from "../tshirts/page";
 import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
+import Categories from "@/components/Categories";
 
 const FeatureSection = () => {
   return (
@@ -122,7 +120,7 @@ const FeatureSection = () => {
         </div>
       </section>
 
-      <Categories />
+      <Categories/>
 
       {/* Features Section */}
       <section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">
