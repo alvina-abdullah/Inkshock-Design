@@ -3,10 +3,10 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const allCategories = [
-  { name: "T-Shirts", image: "/images/categories/tshirt.jpeg", bg: "bg-pink-600" },
-  { name: "Shirts", image: "/images/categories/shirt.jpeg", bg: "bg-orange-400" },
-  { name: "Hoodies", image: "/images/categories/hoodie.jpeg", bg: "bg-yellow" }, // Fixed color
-  { name: "Caps", image: "/images/categories/caps.jpeg", bg: "bg-teal-300" },
+  { name: "T-Shirts", image: "/images/category/tshirt.jpeg", bg: "bg-pink-600" },
+  { name: "Shirts", image: "/images/category/shirt.jpeg", bg: "bg-orange-400" },
+  { name: "Hoodies", image: "/images/category/hoodie.jpeg", bg: "bg-yellow" }, // Fixed color
+  { name: "Caps", image: "/images/category/caps.jpeg", bg: "bg-teal-300" },
 ];
 
 const Categories = () => {
