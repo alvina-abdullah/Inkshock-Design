@@ -9,7 +9,7 @@ import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
 // import Categories from "@/components/Categories";
 import PinterestVideo from "../pinterestvideo/page";
-import Shirts from "../shirts/psge";
+import Shirts from "../shirts/page";
 
 const FeatureSection = () => {
   return (
