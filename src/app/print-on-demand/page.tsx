@@ -4,12 +4,13 @@ import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
-import ProductSection from "../Shirts/psge";
-import Shirts from "../Shirts/psge";
+import ProductSection from "../shirts/psge";
+import Shirts from "../shirts/psge";
 import TShirts from "../tshirts/page";
 import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
-import Categories from "@/components/Categories";
+// import Categories from "@/components/Categories";
+import PinterestVideo from "../pinterestvideo/page";
 
 const FeatureSection = () => {
   return (
@@ -103,13 +104,7 @@ const FeatureSection = () => {
 
         {/* Right - Hero Image */}
         <div className="flex w-full justify-center md:w-1/2">
-          <iframe
-            src="https://assets.pinterest.com/ext/embed.html?id=AYkRR_cZh5bksy8nxpr5zt2W3XdvEJ2AVkIILaOTk0TgJe2zNdQEqEuoh1q5lmnmMSXA8H_iL15emIMnJoU2jAI"
-            height="532"
-            width="345"
-            frameBorder="0"
-            scrolling="no"
-          ></iframe>
+<PinterestVideo/>
           {/* <Image
             src="/images/print.png"
             alt="Tattoo T-Shirt"
@@ -120,7 +115,7 @@ const FeatureSection = () => {
         </div>
       </section>
 
-      <Categories/>
+      {/* <Categories/> */}
 
       {/* Features Section */}
       <section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">

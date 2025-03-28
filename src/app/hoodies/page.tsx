@@ -4,19 +4,19 @@ import Image from "next/image";
 const products = [
   {
     // name: "Vertical Striped Shirt",
-    image: "/images/tshirts/tshirts1.jpg",
+    image: "/images/hoodies/hoodie1.jpg",
   },
   {
     // name: "Courage Graphic T-shirt",
-    image: "/images/tshirts/tshirts2.jpg",
+    image: "/images/hoodies/hoodie2.jpg",
   },
   {
     // name: "Loose Fit Bermuda Shorts",
-    image: "/images/tshirts/tshirts3.jpg",
+    image: "/images/hoodies/hoodie3.jpg",
   },
   {
     // name: "Faded Skinny Jean",
-    image: "/images/tshirts/tshirts4.jpg",
+    image: "/images/hoodies/hoodie4.jpg",
   },
 ];
 
@@ -24,7 +24,7 @@ const Hoodies = () => {
   return (
     <section className="py-16 px-8 md:px-16 lg:px-24 bg-white dark:bg-black">
       {/* Section Title */}
-      <h2 className="text-3xl font-bold text-center text-black dark:text-white uppercase">T-Shirts</h2>
+      <h2 className="text-3xl font-bold text-center text-black dark:text-white uppercase">hoodies</h2>
 
       {/* Product Grid */}
       <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -9,10 +9,10 @@ const products = [
     image: "/images/shirts/shirt2.jpg",
   },
   {
-    image: "/images/shirts/shirt1.jpg",
+    image: "/images/shirts/shirt3.jpg",
   },
   {
-    image: "/images/shirts/shirt1.jpg",
+    image: "/images/shirts/shirt4.jpg",
   },
 ];
 
