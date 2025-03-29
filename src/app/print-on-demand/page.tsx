@@ -4,13 +4,12 @@ import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
-
 import TShirts from "../tshirts/page";
 import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
+import Shirts from "@/app/shirts/page";
 // import Categories from "@/components/Categories";
 import PinterestVideo from "../pinterestvideo/page";
-import Shirts from "../shirts/page";
 import Categories from "../categories";
 
 const FeatureSection = () => {
