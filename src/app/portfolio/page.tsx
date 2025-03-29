@@ -42,7 +42,7 @@ const Portfolio = () => {
     },
     {
       title: "Marketing Campaign",
-      category: "",
+      category: "logo",
       image: "/images/work/logo8.png?height=400&width=600",
     },
     {
@@ -100,7 +100,136 @@ const Portfolio = () => {
       category: "Branding & Digital",
       image: "/images/work/logo19.png?height=400&width=600",
     },
-
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web1.png?height=400&width=600",
+    },
+    {
+      title: "Modern E-commerce",
+      category: "Web Design",
+      image: "/images/web/web2.png?height=400&width=600",
+    },
+    {
+      title: "App Interface",
+      category:"Web Design",
+      image: "/images/web/web3.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web4.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web5.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web6.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaig",
+      category: "Web Design",
+      image: "/images/web/web7.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web8.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web9.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web10.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web11.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web12.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web13.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web14.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web15.png?height=400&width=600",
+    },
+    {
+      title: "Marketing Campaign",
+      category: "Web Design",
+      image: "/images/web/web16.png?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding0.png?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding2.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding3.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding4.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding5.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding6.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding7.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding8.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding9.jpeg?height=400&width=600",
+    },
+    {
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding1.jpeg?height=400&width=600",
+    },
   ];
 
   return (
@@ -118,11 +247,11 @@ const Portfolio = () => {
               Take a look at some of our recent projects and see how we have helped businesses like yours make an impact.
             </p>
           </div>
-          <div className="rounded-sm">
+          {/* <div className="rounded-sm">
             <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
               LOGOS
             </h4>
-          </div>
+          </div> */}
         </div>
         <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
@@ -144,11 +273,11 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-8">
+        {/* <div className="flex justify-center mt-8">
           <button className="rounded-sm px-8 py-3 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black hover:opacity-90 transition-opacity">
             View All Projects
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   

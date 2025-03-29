@@ -9,34 +9,34 @@ import { motion } from "framer-motion";
 const WorkSection = () => {
   const projects = [
     {
-      title: "Vibrant Branding",
-      category: "Brand Identity",
-      image: "/images/work/logo7.png?height=400&width=600",
+      title: "Marketing Campaign",
+      category: "Branding & Digital",
+      image: "/images/work/logo17.png?height=400&width=600",
     },
     {
       title: "Modern E-commerce",
       category: "Web Design",
-      image: "/images/work/logo6.png?height=400&width=600",
+      image: "/images/web/web13.png?height=400&width=600",
     },
     {
-      title: "App Interface",
-      category: "UI/UX Design",
-      image: "/images/work/logo9.png?height=400&width=600",
+      title: "Vibrant Branding",
+      category: "Branding",
+      image: "/images/branding/branding0.png?height=400&width=600",
     },
     {
       title: "Product Packaging",
       category: "Print Design",
-      image: "/images/work/logo4.png?height=400&width=600",
+      image: "/images/work/logo8.png?height=400&width=600",
     },
     {
       title: "Custom Illustrations",
       category: "Illustration",
-      image: "/images/work/logo2.png?height=400&width=600",
+      image: "/images/work/logo9.png?height=400&width=600",
     },
     {
       title: "Marketing Campaign",
       category: "Branding & Digital",
-      image: "/images/work/logo12.png?height=400&width=600",
+      image: "/images/work/logo19.png?height=400&width=600",
     },
   ];
 
@@ -116,7 +116,7 @@ const WorkSection = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               className="rounded-sm px-8 py-3 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black hover:opacity-90 transition-opacity"
-            ><Link href="/customlogo">
+            ><Link href="/portfolio">
               View All Projects
               </Link>
             </motion.button>
