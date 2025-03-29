@@ -7,10 +7,11 @@ import { TypeAnimation } from "react-type-animation";
 import TShirts from "../tshirts/page";
 import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
-import Shirts from "@/app/shirts/page";
+// import Shirts from "../shirts/page";
 // import Categories from "@/components/Categories";
 import PinterestVideo from "../pinterestvideo/page";
 import Categories from "../categories";
+import Shirts from "@/components/shirts/page";
 
 const FeatureSection = () => {
   return (
@@ -195,7 +196,7 @@ const FeatureSection = () => {
         </div>
       </section>
       <TShirts />
-      <Shirts />
+      <Shirts/>
       <Hoodies />
       <Caps />
       <PrintPackages />
