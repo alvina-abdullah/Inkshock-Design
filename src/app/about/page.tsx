@@ -33,7 +33,7 @@ const Aboutsection = () => {
         </div>
         <div className="lg:w-1/2">
           <Image
-            src="/images/about/image.png"
+            src="/images/about/about.png"
             width={600}
             height={400}
             alt="About Us"

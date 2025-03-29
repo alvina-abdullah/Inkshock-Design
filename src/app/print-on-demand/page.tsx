@@ -52,7 +52,7 @@ const FeatureSection = () => {
       </section> */}
 
       {/* Hero Section */}
-      <section className=" flex flex-col items-center justify-between bg-gradient-to-r from-white to-pink-600 px-8 py-12 text-black text-black dark:from-pink-500 dark:text-white md:flex-row md:px-16 lg:px-24">
+      <section className=" flex flex-col items-center justify-between bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-12 text-black text-black dark:from-pink-500 dark:text-white md:flex-row md:px-16 lg:px-24">
         {/* Left - Content */}
         <div className="mt-6 w-full md:mt-0 md:w-1/2">
           <p className="flex items-center bg-gradient-to-r from-teal-500 via-orange-600 to-pink-400 bg-clip-text font-bold uppercase text-transparent">
