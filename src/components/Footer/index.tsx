@@ -62,11 +62,11 @@ const Footer = () => {
               <Link href="/services" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
                 Services
               </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Testimonials
+              <Link href="/shirts" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Shirts
               </Link>
-              <Link href="#" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                FAQ
+              <Link href="/tshirts" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Tshirts
               </Link>
             </nav>
           </div>
