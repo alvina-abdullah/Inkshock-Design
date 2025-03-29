@@ -4,12 +4,14 @@ import FeatureCards from "@/components/Banner.tsx";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+
 import TShirts from "../tshirts/page";
 import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
 // import Categories from "@/components/Categories";
 import PinterestVideo from "../pinterestvideo/page";
 import Shirts from "../shirts/page";
+import Categories from "../categories";
 
 const FeatureSection = () => {
   return (
@@ -103,7 +105,7 @@ const FeatureSection = () => {
 
         {/* Right - Hero Image */}
         <div className="flex w-full justify-center md:w-1/2">
-<PinterestVideo/>
+          <PinterestVideo />
           {/* <Image
             src="/images/print.png"
             alt="Tattoo T-Shirt"
@@ -114,7 +116,7 @@ const FeatureSection = () => {
         </div>
       </section>
 
-      {/* <Categories/> */}
+      <Categories/>
 
       {/* Features Section */}
       <section className="relative overflow-hidden bg-gray-100 px-8 py-12 dark:bg-black md:px-16 lg:px-24">
@@ -194,8 +196,8 @@ const FeatureSection = () => {
         </div>
       </section>
       <TShirts />
-      <Shirts/>
-           <Hoodies />
+      <Shirts />
+      <Hoodies />
       <Caps />
       <PrintPackages />
       <FeatureCards />

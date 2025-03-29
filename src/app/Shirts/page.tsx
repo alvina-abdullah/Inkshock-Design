@@ -16,7 +16,7 @@ const products = [
   },
 ];
 
-const shirts = () => {
+const Shirts = () => {
   return (
     <section className="py-16 px-8 md:px-16 lg:px-24 bg-white dark:bg-black">
       {/* Section Title */}
@@ -48,4 +48,4 @@ const shirts = () => {
   );
 };
 
-export default shirts;
+export default Shirts;
