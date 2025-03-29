@@ -22,14 +22,19 @@ const products = [
 
 const TShirts = () => {
   return (
-    <section className="py-16 px-8 md:px-16 lg:px-24 bg-white dark:bg-black">
+    <section className="bg-white px-8 py-16 dark:bg-black md:px-16 lg:px-24">
       {/* Section Title */}
-      <h2 className="text-3xl font-bold text-center text-black dark:text-white uppercase">T-Shirts</h2>
+      <h2 className="text-center text-3xl font-bold uppercase text-black dark:text-white">
+        T-Shirts
+      </h2>
 
       {/* Product Grid */}
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {products.map((product, index) => (
-          <div key={index} className="bg-gray-100 rounded-xl p-6 text-center shadow-md">
+          <div
+            key={index}
+            className="rounded-xl bg-gray-100 p-6 text-center shadow-md"
+          >
             {/* Product Image */}
             <div className="relative mx-auto">
               <Image
@@ -37,18 +42,16 @@ const TShirts = () => {
                 alt={product.image}
                 width={300}
                 height={250}
-                className="object-contain w-full h-60"
+                className="h-60 w-full object-contain"
               />
             </div>
 
             {/* Product Info */}
             {/* <h3 className="font-semibold mt-4 text-lg text-black">{product.name}</h3> */}
-
           </div>
         ))}
       </div>
     </section>
-
   );
 };
 
