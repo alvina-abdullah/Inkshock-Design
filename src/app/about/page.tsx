@@ -14,7 +14,8 @@ const Aboutsection = () => {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 px-6 py-16 lg:flex-row"  data-aos="fade-right">
         <div className="bg-white dark:bg-black lg:w-1/2" data-aos="fade-right">
           <h3 className=" font-bold text-black dark:text-white">ABOUT</h3>
-          <h2 className="text-3xl font-bold text-black dark:text-white">
+          <h2 className="text-3xl font-bold text-black dark:text-white
+          ">
             Inkshock Design
           </h2>
           <p className="mt-4 text-black dark:text-white">
