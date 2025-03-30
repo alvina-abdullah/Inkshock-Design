@@ -1,7 +1,7 @@
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Testimonials from "./testimonials";
+import Testimonials from "./testimonials/page";
 import { Metadata } from "next";
 import WorkSection from "./work";
 import ServicesSection from "./services/page";

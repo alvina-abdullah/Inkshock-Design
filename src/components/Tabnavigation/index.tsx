@@ -25,7 +25,9 @@ const PackagesPage = () => {
   };
 
   return (
+    
 <div className="mt-12 flex flex-col items-center px-4">
+ 
   {/* Title */}
   <h3 className="text-center font-extrabold text-3xl sm:text-4xl md:text-5xl text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 bg-clip-text">
     Our Pricing Packages
@@ -47,6 +49,7 @@ const PackagesPage = () => {
       </button>
     ))}
   </div>
+ 
 
 
 
@@ -57,6 +60,8 @@ const PackagesPage = () => {
         {activeTab === "Brand" && <BrandPackages />}
         {activeTab === "Video" && <VideoPackages />}
       </div>
+ 
+
     </div>
   );
 };

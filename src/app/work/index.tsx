@@ -55,7 +55,7 @@ const WorkSection = () => {
         <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-teal-400 opacity-30 rounded-full blur-3xl" />
       </div>
 
-      <section className="relative py-16">
+      <section className="relative">
         <div className="container px-4 md:px-6 relative z-10">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
