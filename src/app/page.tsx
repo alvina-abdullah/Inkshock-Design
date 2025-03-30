@@ -22,10 +22,11 @@ export default function Home() {
       <Hero />
       <ServicesSection />
       <WorkSection />
+      <Tabnavigation/>
       <ProcessSection />
       <Testimonials />
       <Contact />
-      <Tabnavigation/>
+      
     </>
   );
 }
