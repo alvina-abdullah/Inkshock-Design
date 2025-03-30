@@ -6,7 +6,6 @@ import { Metadata } from "next";
 import WorkSection from "./work";
 import ServicesSection from "./services/page";
 import ProcessSection from "./process/page";
-import PackagesPage from "@/components/Tabnavigation";
 import Tabnavigation from "@/components/Tabnavigation";
 
 export const metadata: Metadata = {
