@@ -32,7 +32,7 @@ const PackagesPage = () => {
   </h3>
 
   {/* Category Buttons */}
-  <div className="flex flex-wrap justify-center bg-black rounded-lg shadow-md dark:bg-white mt-10 w-full max-w-2xl">
+  <div className="flex  justify-center bg-black rounded-lg shadow-md dark:bg-white mt-10 w-full max-w-2xl">
     {["Logo", "Web", "Brand", "Video"].map((category) => (
       <button
         key={category}
