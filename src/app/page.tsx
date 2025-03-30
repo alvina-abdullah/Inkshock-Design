@@ -7,6 +7,7 @@ import WorkSection from "./work";
 import ServicesSection from "./services/page";
 import ProcessSection from "./process/page";
 import PackagesPage from "@/components/Tabnavigation";
+import Tabnavigation from "@/components/Tabnavigation";
 
 export const metadata: Metadata = {
   title: "Inshock Design",
@@ -24,7 +25,7 @@ export default function Home() {
       <ProcessSection />
       <Testimonials />
       <Contact />
-      {/* <PackagesPage/>  */}
+      <Tabnavigation/>
     </>
   );
 }

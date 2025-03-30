@@ -54,7 +54,7 @@ const videopackages = () => {
   ];
 
   return (
-    <section className="bg-white py-24 dark:bg-black ">
+    <section id="video-packages" className="bg-white py-24 dark:bg-black ">
       {/* <div className=" bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 h-40 w-full ">
         <h3 className="text-center text-white pt-16 text-4xl font-extrabold">Packages</h3>
         </div> */}

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { FaLocationArrow, FaMailBulk, FaMapPin, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
@@ -26,7 +25,7 @@ const Contact = () => {
   return (
     <div id="contact" className="min-h-screen bg-gray-100 mt-3 py-12 dark:bg-black">
       <div className="mx-auto max-w-6xl rounded-lg  bg-white dark:bg-gray-900 p-8 shadow-lg">
-        <h2 className="mb-8 font-extrabold bg-gradient-to-r  from-pink-500 via-orange-400 to-teal-400 bg-clip-text text-center text-3xl font-bold text-transparent">
+        <h2 className="mb-8 font-extrabold bg-gradient-to-r  from-pink-500 via-orange-400 to-teal-400 bg-clip-text text-center text-3xl text-transparent">
           📞 Contact 
         </h2>
 

@@ -1,11 +1,9 @@
 'use client';
 import React from "react"
 import Image from "next/image"
-import Link from "next/link"
-import { FaChevronCircleRight } from "react-icons/fa"
 import { motion } from "framer-motion";
 import LogoPackages from "@/components/Logo-Packages";
-import { IoMdLogOut } from "react-icons/io";
+
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },

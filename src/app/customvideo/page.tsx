@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import VideoPackages from "@/components/Video-Packages";
-import Link from "next/link";
-import { px } from "framer-motion";
 const customvideoanimation = () => {
   const projects = [
     {
