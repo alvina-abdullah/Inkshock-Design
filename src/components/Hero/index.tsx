@@ -56,7 +56,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-            className="mb-12 text-base text-black dark:text-white sm:text-lg md:text-xl"
+            className="mb-12 text-base text-white sm:text-lg md:text-xl"
           >
             We bring your ideas to life with bold, vibrant designs that
             capture attention and drive results. From branding to web
@@ -76,7 +76,7 @@ const Hero = () => {
             <button className="cursor-pointer">
               <Link
                 href="/packages"
-                className="inline-block rounded-sm border border-pink-500 px-8 py-4 text-base font-semibold text-black dark:text-white duration-300 ease-in-out"
+                className="inline-block rounded-sm border border-pink-500 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out"
               >
                 Get Started
               </Link>

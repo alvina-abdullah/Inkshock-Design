@@ -5,7 +5,7 @@ const printpackages = () => {
   const printpackages = [
     {
       title: "InkShock Wear – Essential Package",
-      price: "$229",
+      price: "$299",
       description: "Perfect for startups, small brands, or personal merch.",
       features: [
         "10 Custom T-Shirts (Premium Cotton, Full-Color Print)",
