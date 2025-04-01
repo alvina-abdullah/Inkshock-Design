@@ -1,4 +1,6 @@
+'use client';
 import React from "react";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { FaChevronCircleRight } from "react-icons/fa";
@@ -231,11 +233,24 @@ const Portfolio = () => {
       image: "/images/branding/branding1.jpeg?height=400&width=600",
     },
   ];
+    // Add more projects here...
+
 
   return (
-    <section id="work" className="w-full py-12 md:py-24 lg:py-32 dark:bg-zinc-900 bg-white">
+    <motion.section 
+      id="work" 
+      className="w-full py-12 md:py-24 lg:py-32 dark:bg-zinc-900 bg-white"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <motion.div 
+          className="flex flex-col items-center justify-center space-y-4 text-center"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-zinc-800 px-3 py-1 text-sm text-orange-400 font-medium">
               Our Work
@@ -247,15 +262,28 @@ const Portfolio = () => {
               Take a look at some of our recent projects and see how we have helped businesses like yours make an impact.
             </p>
           </div>
-          {/* <div className="rounded-sm">
-            <h4 className="text-4xl px-8 py-3 rounded-sm text-white font-extrabold bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
-              LOGOS
-            </h4>
-          </div> */}
-        </div>
-        <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
+        </motion.div>
+        
+        <motion.div 
+          className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: { staggerChildren: 0.2 }
+            }
+          }}
+        >
           {projects.map((project, index) => (
-            <div key={index} className="group relative overflow-hidden rounded-lg">
+            <motion.div 
+              key={index} 
+              className="group relative overflow-hidden rounded-lg"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: index * 0.1 }}
+            >
               <Image
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
@@ -270,17 +298,11 @@ const Portfolio = () => {
                   View Project <FaChevronCircleRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
-        {/* <div className="flex justify-center mt-8">
-          <button className="rounded-sm px-8 py-3 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 text-black hover:opacity-90 transition-opacity">
-            View All Projects
-          </button>
-        </div> */}
+        </motion.div>
       </div>
-    </section>
-  
+    </motion.section>
   );
 };
 

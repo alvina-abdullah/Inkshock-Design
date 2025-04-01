@@ -55,7 +55,7 @@ const logopackages = () => {
         <h3 className="text-center text-white pt-16 text-4xl font-extrabold">Packages</h3>
         </div> */}
       <div className="mx-auto max-w-6xl px-6">
-        <h3 className=" bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 bg-clip-text text-center text-5xl  font-extrabold text-transparent">
+        <h3 className="pb-6 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 bg-clip-text text-center text-5xl  font-extrabold text-transparent">
           Logo Packages
         </h3>
         <div className="grid grid-cols-1 gap-8 pt-8 md:grid-cols-3">

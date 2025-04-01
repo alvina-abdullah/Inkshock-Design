@@ -1,8 +1,9 @@
+'use client';
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { FaChevronCircleRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 import BrandingPackages from "@/components/Branding-Packages";
+
 const Branding = () => {
   const projects = [
     {
@@ -58,30 +59,55 @@ const Branding = () => {
   ];
 
   return (
-    <section
+    <motion.section
       id="logo"
       className="w-full bg-white py-12 pt-28 dark:bg-zinc-900 md:py-24 lg:py-32"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
-      <div className="h-40 w-full bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 ">
+      <div className="h-40 w-full bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
         <h3 className="pt-16 text-center text-4xl font-extrabold text-white">
-         CUSTOM BRANDING
+          CUSTOM BRANDING
         </h3>
       </div>
-      <section className="flex flex-col items-center justify-between px-6 py-12 md:flex-row md:px-16">
+
+      <motion.section
+        className="flex flex-col items-center justify-between px-6 py-12 md:flex-row md:px-16"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
         <div className="md:w-1/2">
-          <Image
-            src="/images/branding.png"
-            alt="Web Development Illustration"
-            width={500}
-            height={400}
-            className="max-w-full"
-          />
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }}
+          >
+            <Image
+              src="/images/branding.png"
+              alt="Web Development Illustration"
+              width={500}
+              height={400}
+              className="max-w-full"
+            />
+          </motion.div>
         </div>
         <div className="text-black dark:text-white md:w-1/2">
-          <h2 className="mb-4 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 bg-clip-text text-2xl font-bold text-transparent md:text-3xl">
-           Branding Your Bussiness
-          </h2>
-          <p className="text-lg leading-relaxed">
+          <motion.h2
+            className="mb-4 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 bg-clip-text text-2xl font-bold text-transparent md:text-3xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
+            Branding Your Bussiness
+          </motion.h2>
+          <motion.p
+            className="text-lg leading-relaxed"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
             Our Business Branding services are designed to establish a strong
             and distinctive identity for your company. We collaborate closely
             with you to understand your values, target audience, and goals,
@@ -94,23 +120,44 @@ const Branding = () => {
             communicate your value proposition. With our Business Branding
             services, we help you make a lasting impression and stand out in a
             competitive market.
-          </p>
+          </motion.p>
         </div>
-      </section>
+      </motion.section>
+
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <motion.div
+          className="flex flex-col items-center justify-center space-y-4 text-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+        >
           <div className="space-y-2"></div>
-          <div className="rounded-sm ">
+          <div className="rounded-sm">
             <h4 className="rounded-sm uppercase bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-3 text-4xl font-extrabold text-white">
               Branding
             </h4>
           </div>
-        </div>
-        <div className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
+        </motion.div>
+
+        <motion.div
+          className="mx-auto grid max-w-7xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: { staggerChildren: 0.2 },
+            },
+          }}
+        >
           {projects.map((project, index) => (
-            <div
+            <motion.div
               key={index}
               className="group relative overflow-hidden rounded-lg"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: index * 0.1 }}
             >
               <Image
                 src={project.image || "/placeholder.svg"}
@@ -126,21 +173,15 @@ const Branding = () => {
                 <h3 className="text-xl font-bold text-white">
                   {project.title}
                 </h3>
-                {/* <Link href="#" className="mt-2 inline-flex items-center text-white hover:text-pink-400">
-                  View Project <FaChevronCircleRight className="ml-1 h-4 w-4" />
-                </Link> */}
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
-        {/* <div className="mt-8 flex justify-center">
-          <button className=" rounded-sm  bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-3 text-black transition-opacity hover:opacity-90">
-            View All Projects
-          </button>
-        </div> */}
+        </motion.div>
       </div>
+
       <BrandingPackages />
-    </section>
+    </motion.section>
   );
 };
+
 export default Branding;

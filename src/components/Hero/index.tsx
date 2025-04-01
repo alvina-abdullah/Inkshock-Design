@@ -76,7 +76,7 @@ const Hero = () => {
             <button className="cursor-pointer">
               <Link
                 href="/packages"
-                className="inline-block rounded-sm border border-pink-500 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out"
+                className="inline-block rounded-sm border border-pink-600 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out"
               >
                 Get Started
               </Link>

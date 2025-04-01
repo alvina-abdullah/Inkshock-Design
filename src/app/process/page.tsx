@@ -28,10 +28,17 @@ const ProcessSection = () => {
       description:
         "Once approved, we deliver the final assets in all the formats you need for successful implementation.",
     },
-  ]
+  ];
 
   return (
-    <section id="process" className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-black">
+    <section id="process" className="relative w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-black">
+      {/* Background Effects */}
+      <div className="absolute inset-0">
+        <div className="absolute -top-20 -left-32 w-96 h-96 bg-pink-600 opacity-30 rounded-full blur-3xl" />
+        {/* <div className="absolute top-3.5 left-1/3 w-96 h-96 bg-pink-800 opacity-20 rounded-full blur-3xl" /> */}
+        <div className="absolute -bottom-14 right-0 w-96 h-96 bg-teal-400 opacity-30 rounded-full blur-3xl" />
+      </div>
+
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -41,11 +48,12 @@ const ProcessSection = () => {
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400">
               How we bring your vision to life
             </h2>
-            <p className="max-w-[900px] text-gray-500 dark:text-zinc-400  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-gray-500 dark:text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Our proven design process ensures we deliver exceptional results that exceed your expectations.
             </p>
           </div>
         </div>
+
         <div className="mx-auto max-w-5xl py-12 text-black dark:text-zinc-400">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col md:flex-row gap-6 mb-12 last:mb-0">
@@ -66,6 +74,7 @@ const ProcessSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
+
 export default ProcessSection;
