@@ -108,25 +108,25 @@ const slides = [
   {
     image: "/images/slide2.jpeg",
     title: "2d logo design",
-    subtitle: "Taste the difference, love the experience!.",
+    subtitle: "Look difference, love the experience!.",
     buttonText: "Get Started",
   },
   {
     image: "/images/slide3.jpeg",
-    title: "Get Fresh Food In A Easy Way.",
-    subtitle: "Fresh ingredients, unforgettable flavors",
+    title: "Create your website and start bussiness today.",
+    subtitle: "Look difference, love the experience!.",
     buttonText: "Get Started",
   },
   {
     image: "/images/slide2.jpeg",
-    title: "Taste In Every Bites",
-    subtitle: "Bringing flavors to life, one bite at a time!",
+    title: "2d logo design",
+    subtitle: "Look difference, love the experience!.",
     buttonText: "Get Started",
   },
   {
     image: "/images/slide1.jpeg",
-    title: "Burger Weak",
-    subtitle: "Bigger, juicier, tastier—bite into happiness",
+    title: "Create your website and start bussiness today.",
+    subtitle: "We specialize in turning your brands story and values into captivating illustrations that leave a lasting impression.",
     buttonText: "Get Started",
   },
 ];
