@@ -8,7 +8,7 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <FaPalette className="h-10 w-10 text-pink-500" />, 
-      title: "Branding & Identity",
+      title: "Logo Design",
       description: "Create a memorable brand with custom logos, color palettes, and brand guidelines that capture your essence."
     },
     {
@@ -18,7 +18,7 @@ const ServicesSection = () => {
     },
     {
       icon: <IoIosPhonePortrait className="h-10 w-10 text-yellow" />, 
-      title: "UI/UX Design",
+      title: "Bussiness Cards",
       description: "Intuitive user interfaces and seamless experiences that keep users engaged and coming back."
     },
     {
@@ -28,8 +28,8 @@ const ServicesSection = () => {
     },
     {
       icon: <FaCamera className="h-10 w-10 text-green-400" />, 
-      title: "Photography",
-      description: "Professional photography services to showcase your products, team, or services in the best light."
+      title: "Social Media marketing",
+      description: "Professional Social Media marketing services to showcase your products, team, or services in the best light."
     },
     {
       icon: <FaPrint className="h-10 w-10 text-blue-400" />, 

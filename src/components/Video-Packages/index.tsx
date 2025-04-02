@@ -31,9 +31,9 @@ const videopackages = () => {
         "Storyboard for Seamless Storytelling – Visualized before production",
         "Custom Animation & Visual Effects – High-quality, engaging visuals",
         "Voice-Over & High-Quality Sound Design – Professional production value",
-        "📅 Delivery: 5 Weeks",
-        "💡 A powerful video to showcase your brand!",
         "📩 Let’s create your perfect video – Contact us today!",
+        "📅 Delivery: 5 Weeks",
+    
       ],
     },
     {
@@ -47,8 +47,10 @@ const videopackages = () => {
         "Storyboard to Bring Your Vision to Life – A structured approach to storytelling",
         "High-Quality Animation & Motion Graphics – Stunning visuals for maximum engagement",
         "Professional Voice-Over & Sound Effects – Crystal-clear audio experience",
+        "A powerful video to showcase your brand!",
         "📅 Delivery: 6 Weeks",
         "💡 Make your brand unforgettable with a premium video!",
+        "📩 Let’s create your perfect video – Contact us today!",
       ],
     },
   ];

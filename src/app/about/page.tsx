@@ -1,6 +1,7 @@
 'use client';
 import { motion } from "framer-motion";
 import Image from "next/image";
+import ServicesSection from "../services/page";
 
 const Aboutsection = () => {
   return (
@@ -127,6 +128,7 @@ const Aboutsection = () => {
       </motion.div>
 <br />
 <br />
+<ServicesSection/>
 
       {/* Additional Sections with Animation */}
       <motion.div 
