@@ -27,6 +27,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <WhatsAppButton/>
           <ScrollToTop />
         </Providers>
       </body>
@@ -34,4 +35,5 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers";import WhatsAppButton from "@/components/Whatsapp";
+

@@ -21,7 +21,7 @@ const Home = () => {
     <section className="relative w-full h-screen flex items-center justify-center bg-white dark:bg-black">
       <div className="container mx-auto flex sm-flex-col-reverse flex-col md:flex-row items-center px-6 md:px-12">
         {/* Left Side: Swiper */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center pt-24">
           <Swiper
             modules={[Pagination, Autoplay]}
             pagination={{ clickable: true }}
