@@ -11,56 +11,23 @@ import PinterestVideo from "../pinterestvideo/page";
 import Categories from "../categories";
 import Shirts from "@/components/shirts/page";
 import { motion } from "framer-motion";
+import Home from "@/components/Home";
+
 
 const FeatureSection = () => {
   return (
+    
     <div className="group mt-28 dark:to-black dark:text-white">
       {/* Hero Section */}
       <motion.section
-        className="flex flex-col items-center justify-between bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 px-8 py-12 text-black dark:text-white md:flex-row md:px-16 lg:px-24"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
         {/* Left - Content */}
-        <motion.div
-          className="mt-6 w-full md:mt-0 md:w-1/2"
-          initial={{ x: -50, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          <p className="flex items-center bg-gradient-to-r from-teal-500 via-orange-600 to-pink-400 bg-clip-text font-bold uppercase text-transparent">
-            <span className="mr-2 inline-block h-3 w-3 rounded-sm bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400"></span>
-            InkShock Design - Wear Your Passion
-          </p>
+        {/* <motion.div
 
-          <motion.h2
-            className="mt-2 text-3xl font-bold leading-tight md:text-5xl"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.5 }}
-          >
-            <TypeAnimation
-              sequence={[
-                "Wear Your Art. Own Your Style.",
-                1000,
-                "You Print It. We Dream It.",
-                1000,
-                "Express Yourself with Every Thread.",
-                1000,
-              ]}
-              style={{ fontSize: "40px" }}
-              repeat={Infinity}
-            />
-          </motion.h2>
-
-          <p className="mt-4 text-lg">
-            At Inkshock Design, we&apos;re dedicated to delivering high-quality,
-            comfortable, and stylish apparel that exceeds your expectations.
-            We believe fashion is an extension of your personality. Our
-            premium-quality, custom-designed let you showcase your unique style
-            with bold, eye-catching graphics that turn heads.
-          </p>
+        
 
           <ul className="mt-4 space-y-2 text-lg">
             <li>
@@ -80,16 +47,18 @@ const FeatureSection = () => {
               Shop Now
             </button>
           </Link>
-        </motion.div>
+        </motion.div> */}
 
         {/* Right - Hero Image */}
         <motion.div
-          className="flex w-full justify-center md:w-1/2"
+          // className="flex w-full justify-center md:w-1/2 pt-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <PinterestVideo />
+          {/* <div className="rounded-md"> */}
+          <Home/>
+          {/* </div> */}
         </motion.div>
       </motion.section>
 
