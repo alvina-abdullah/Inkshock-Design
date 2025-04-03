@@ -88,11 +88,11 @@ const Footer = () => {
         <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t border-zinc-800 pt-6 md:flex-row">
           <p className="text-sm text-black dark:text-white">© 2020 InkShock Design. All rights reserved.</p>
           <div className="flex gap-4">
-            <Link href="#" className="text-black dark:text-white hover:text-pink-500 transition-colors">
+            <Link href="https://www.instagram.com/inkshockdesign?igsh=MWc0NmhkM2Fldmd2ag==" className="text-black dark:text-white hover:text-pink-500 transition-colors">
               <FaInstagram className="h-5 w-5" />
               <span className="sr-only">Instagram</span>
             </Link>
-            <Link href="#" className="text-black dark:text-white hover:tetext-black dark:text-white transition-colors">
+            <Link href="https://www.facebook.com/share/164ajD33fY/" className="text-black dark:text-white hover:tetext-black dark:text-white transition-colors">
               <FaFacebook className="h-5 w-5" />
               <span className="sr-only">Facebook</span>
             </Link>
