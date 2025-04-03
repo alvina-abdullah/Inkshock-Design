@@ -13,7 +13,7 @@ const slides = [
   { image: "/images/slide1.jpeg" },
   { image: "/images/slide2.jpeg" },
   { image: "/images/slide3.jpeg" },
-  { image: "/images/slide1.jpeg" },
+  { image: "/images/slide4.jpeg" },
 ];
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
           <Swiper
             modules={[Pagination, Autoplay]}
             pagination={{ clickable: true }}
-            autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 2000 }}
             className="w-[400px] md:w-[500px]"
           >
             {slides.map((slide, index) => (
