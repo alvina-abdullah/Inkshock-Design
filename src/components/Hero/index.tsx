@@ -100,31 +100,31 @@ import Image from "next/image";
 
 const slides = [
   {
-    image: "/images/slide1.jpeg",
+    image: "/images/work/logo8.png",
     title: "illustration logo design",
     subtitle: "We specialize in turning your brands story and values into captivating illustrations that leave a lasting impression. Let our talented designers transform your ideas into unique.artistic llogos that stand out in the crowd.",
     buttonText: "Get Started",
   },
   {
-    image: "/images/slide2.jpeg",
+    image: "/images/work/logo9.png",
     title: "2d logo design",
     subtitle: "Look difference, love the experience!.",
     buttonText: "Get Started",
   },
   {
-    image: "/images/slide3.jpeg",
+    image: "/images/work/logo18.png",
     title: "Create your website and start bussiness today.",
     subtitle: "Look difference, love the experience!.",
     buttonText: "Get Started",
   },
   {
-    image: "/images/slide2.jpeg",
+    image: "/images/image.png",
     title: "2d logo design",
     subtitle: "Look difference, love the experience!.",
     buttonText: "Get Started",
   },
   {
-    image: "/images/slide1.jpeg",
+    image: "/images/work/logo7.png",
     title: "Create your website and start bussiness today.",
     subtitle: "We specialize in turning your brands story and values into captivating illustrations that leave a lasting impression.",
     buttonText: "Get Started",
@@ -152,7 +152,7 @@ const Hero = () => {
                 alt={`Slide ${index + 1}`}
                 layout="fill"
                 objectFit="cover"
-                className="brightness-80 "
+                className="brightness-80 h-full"
               />
 
               {/* Content */}
