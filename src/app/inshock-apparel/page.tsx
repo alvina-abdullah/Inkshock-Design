@@ -24,30 +24,6 @@ const FeatureSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        {/* Left - Content */}
-        {/* <motion.div
-
-        
-
-          <ul className="mt-4 space-y-2 text-lg">
-            <li>
-              ✔ **High-Quality Cotton** – Soft, breathable, and long-lasting.
-            </li>
-            <li>
-              ✔ **Eco-Friendly Printing** – Vibrant designs that are
-              environmentally conscious.
-            </li>
-            <li>
-              ✔ **Exclusive Artwork** – Designs created by top independent
-              artists.
-            </li>
-          </ul>
-          <Link href="/packagesn">
-            <button className="rounded-lg bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400  px-6 py-3 font-semibold text-white hover:bg-gray-900">
-              Shop Now
-            </button>
-          </Link>
-        </motion.div> */}
 
         {/* Right - Hero Image */}
         <motion.div

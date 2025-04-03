@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -22,7 +23,7 @@ const Hero = () => {
     >
       {/* Dynamic Background Layer */}
       <div
-        className="absolute inset-0 -z-10 transition-all duration-300 opacity-60"
+        className="absolute inset-0 -z-10 opacity-60 transition-all duration-300"
         style={{
           backgroundImage: `
             linear-gradient(115deg, rgb(211, 255, 215), rgb(0, 0, 0)), 
@@ -32,7 +33,8 @@ const Hero = () => {
             radial-gradient(100% 100% at ${mousePos.x - 100}px ${mousePos.y - 30}px, rgb(255, 77, 0), rgb(0, 200, 255)), 
             linear-gradient(60deg, rgb(255, 0, 0), rgb(120, 86, 255))
           `,
-          backgroundBlendMode: "overlay, overlay, difference, difference, difference, normal",
+          backgroundBlendMode:
+            "overlay, overlay, difference, difference, difference, normal",
         }}
       />
 
@@ -47,9 +49,21 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-            className="mb-5 text-3xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 sm:text-4xl md:text-5xl"
+            className="mb-5 bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 bg-clip-text text-3xl font-bold leading-tight text-transparent sm:text-4xl md:text-5xl"
           >
-            Creative Design Solutions That Make an Impact
+            <TypeAnimation
+              sequence={[
+                "Creative Design Solutions That Make an Impact.",
+                1000,
+                "Crafting compelling designs, prints, logos, and branding.",
+                1000,
+                "Designing bold visuals to amplify your brand.",
+                1000,
+              ]}
+              style={{ fontSize: "40px" }}
+              repeat={Infinity}
+            />
+  
           </motion.h1>
 
           <motion.p
@@ -58,9 +72,9 @@ const Hero = () => {
             transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
             className="mb-12 text-base text-white sm:text-lg md:text-xl"
           >
-            We bring your ideas to life with bold, vibrant designs that
-            capture attention and drive results. From branding to web
-            design, we&apos;ve got you covered.
+            We bring your ideas to life with bold, vibrant designs that capture
+            attention and drive results. From branding to web design, we&apos;ve
+            got you covered.
           </motion.p>
 
           <motion.div
@@ -153,11 +167,11 @@ export default Hero;
 //         className="absolute inset-0 -z-10 transition-all duration-300 opacity-60"
 //         style={{
 //           backgroundImage: `
-//             linear-gradient(115deg, rgb(211, 255, 215), rgb(0, 0, 0)), 
-//             radial-gradient(90% 100% at ${mousePos.x}px ${mousePos.y}px, rgb(200, 200, 200), rgb(22, 0, 45)), 
-//             radial-gradient(100% 100% at ${mousePos.x - 80}px ${mousePos.y}px, rgb(250, 255, 0), rgb(36, 0, 0)), 
-//             radial-gradient(150% 210% at ${mousePos.x + 100}px ${mousePos.y}px, rgb(20, 175, 125), rgb(0, 10, 255)), 
-//             radial-gradient(100% 100% at ${mousePos.x - 100}px ${mousePos.y - 30}px, rgb(255, 77, 0), rgb(0, 200, 255)), 
+//             linear-gradient(115deg, rgb(211, 255, 215), rgb(0, 0, 0)),
+//             radial-gradient(90% 100% at ${mousePos.x}px ${mousePos.y}px, rgb(200, 200, 200), rgb(22, 0, 45)),
+//             radial-gradient(100% 100% at ${mousePos.x - 80}px ${mousePos.y}px, rgb(250, 255, 0), rgb(36, 0, 0)),
+//             radial-gradient(150% 210% at ${mousePos.x + 100}px ${mousePos.y}px, rgb(20, 175, 125), rgb(0, 10, 255)),
+//             radial-gradient(100% 100% at ${mousePos.x - 100}px ${mousePos.y - 30}px, rgb(255, 77, 0), rgb(0, 200, 255)),
 //             linear-gradient(60deg, rgb(255, 0, 0), rgb(120, 86, 255))
 //           `,
 //           backgroundBlendMode: "overlay, overlay, difference, difference, difference, normal",

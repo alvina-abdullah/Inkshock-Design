@@ -90,12 +90,16 @@ const Contact = () => {
                 onChange={handleChange}
                 className="w-full rounded-lg border p-3 text-black dark:text-white focus:ring-2 focus:ring-red-500"
               />
-              <button
+              <a href="mailto:alvinaabdullah16@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+          
                 type="submit"
                 className="flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 py-3 text-lg font-semibold text-white transition hover:bg-red-600"
-              >
+            >
                 Send Message
-              </button>
+              
+              </a>
             </form>
           </motion.div>
 
