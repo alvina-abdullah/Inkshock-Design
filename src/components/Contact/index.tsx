@@ -90,16 +90,12 @@ const Contact = () => {
                 onChange={handleChange}
                 className="w-full rounded-lg border p-3 text-black dark:text-white focus:ring-2 focus:ring-red-500"
               />
-              <a href="mailto:alvinaabdullah16@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-          
+              <a href="mailto:Theinkshockdesigns@gmail.com"
                 type="submit"
                 className="flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 py-3 text-lg font-semibold text-white transition hover:bg-red-600"
-            >
+              >
                 Send Message
-              
-              </a>
+                </a>
             </form>
           </motion.div>
 
@@ -132,9 +128,13 @@ const Contact = () => {
               </div>
               <div className="mt-3 flex items-center space-x-3">
                 <FaMailBulk className="text-pink-600" />
-                <p className="text-gray-600 dark:text-white">
-                  Theinkshockdesigns@gmail.com
-                </p>
+
+              <a
+                href="mailto:Theinkshockdesigns@gmail.com"
+                className="hover:underline "
+              >
+                Theinkshockdesigns@gmail.com
+              </a>
               </div>
             </motion.div>
 
