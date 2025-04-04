@@ -56,8 +56,8 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-medium text-black dark:text-white">Links</h3>
             <nav className="flex flex-col gap-2">
-              <Link href="/inshock-apparel" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
-                Inshock Apparel
+              <Link href="/inkshock-apparel" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
+                Inkshock Apparel
               </Link>
               <Link href="/services" className="text-sm text-black dark:text-white hover:text-pink-500 transition-colors">
                 Services
