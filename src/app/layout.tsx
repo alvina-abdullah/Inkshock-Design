@@ -30,5 +30,5 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";import WhatsAppButton from "@/components/Whatsapp";
+import { Providers } from "./providers";
 
