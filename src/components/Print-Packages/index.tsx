@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const printpackages = () => {
   const printpackages = [
     {
@@ -83,9 +84,11 @@ const printpackages = () => {
                   </li>
                 ))}
               </ul>
+              <Link href="/contact">
               <button className="mt-6 w-full  rounded-lg bg-gradient-to-r from-pink-500 via-orange-400 to-teal-400 py-2 font-bold text-black transition hover:bg-green-600">
                 Buy Now
               </button>
+              </Link>
             </motion.div>
           ))}
         </div>
