@@ -7,16 +7,13 @@ import { TypeAnimation } from "react-type-animation";
 import TShirts from "../tshirts/page";
 import Caps from "../caps/page";
 import Hoodies from "../hoodies/page";
-import PinterestVideo from "../pinterestvideo/page";
 import Categories from "../categories";
 import Shirts from "@/components/shirts/page";
 import { motion } from "framer-motion";
 import Home from "@/components/Home";
 
-
 const FeatureSection = () => {
   return (
-    
     <div className="group mt-28 dark:to-black dark:text-white">
       {/* Hero Section */}
       <motion.section
@@ -24,17 +21,13 @@ const FeatureSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-
         {/* Right - Hero Image */}
         <motion.div
-          // className="flex w-full justify-center md:w-1/2 pt-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          {/* <div className="rounded-md"> */}
-          <Home/>
-          {/* </div> */}
+          <Home />
         </motion.div>
       </motion.section>
 
@@ -68,13 +61,31 @@ const FeatureSection = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}
         >
-          {[ 
-            { title: "Premium Fabric", desc: "Made from 100% organic cotton, soft & durable." },
-            { title: "Eco-Friendly Prints", desc: "Sustainable, non-toxic ink for long-lasting vibrancy." },
-            { title: "Custom Designs", desc: "Collaborate with artists or create your own." },
-            { title: "Limited Editions", desc: "Exclusive designs you won’t find anywhere else." },
-            { title: "Fast Shipping", desc: "Reliable worldwide delivery to your doorstep." },
-            { title: "Satisfaction Guaranteed", desc: "Love it or your money back!" }
+          {[
+            {
+              title: "Premium Fabric",
+              desc: "Made from 100% organic cotton, soft & durable.",
+            },
+            {
+              title: "Eco-Friendly Prints",
+              desc: "Sustainable, non-toxic ink for long-lasting vibrancy.",
+            },
+            {
+              title: "Custom Designs",
+              desc: "Collaborate with artists or create your own.",
+            },
+            {
+              title: "Limited Editions",
+              desc: "Exclusive designs you won’t find anywhere else.",
+            },
+            {
+              title: "Fast Shipping",
+              desc: "Reliable worldwide delivery to your doorstep.",
+            },
+            {
+              title: "Satisfaction Guaranteed",
+              desc: "Love it or your money back!",
+            },
           ].map((feature, index) => (
             <motion.div
               key={index}
@@ -101,10 +112,10 @@ const FeatureSection = () => {
       >
         <h2 className="text-center text-3xl font-bold">Shop by Category</h2>
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
-          {[ 
+          {[
             { title: "Skull Designs", image: "/images/skull.jpg" },
             { title: "Tribal Art", image: "/images/tribal-art.jpg" },
-            { title: "Minimalist", image: "/images/minimalist.jpg" }
+            { title: "Minimalist", image: "/images/minimalist.jpg" },
           ].map((category, index) => (
             <motion.div
               key={index}
