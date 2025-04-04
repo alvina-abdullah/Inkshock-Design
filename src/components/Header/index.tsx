@@ -170,7 +170,7 @@ const Header = () => {
               </div>
               <div className="pr-18 flex w-full items-center justify-end lg:pr-0">
                 <Link
-                  href="/inshock-apparel"
+                  href="/inkshock-apparel"
                   className="ease-in-up flex-shrink-0 rounded-sm hidden bg-pink-600 bg-gradient-to-r from-cyan-500 from-yellow px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
                 >
                      Inkshock Apparel
